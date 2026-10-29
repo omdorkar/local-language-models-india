@@ -1,0 +1,144 @@
+  [hin_Deva] 83/682 segments
+  [hin_Deva] 202/682 segments
+  [hin_Deva] 355/682 segments
+  [hin_Deva] 573/682 segments
+  [hin_Deva] 202/1452 segments
+  [hin_Deva] 517/1452 segments
+  [hin_Deva] 837/1452 segments
+  [hin_Deva] 1157/1452 segments
+  [hin_Deva] 1452/1452 segments
+[mt] hin_Deva: 300 rows, 682.1s
+  [ben_Beng] 78/653 segments
+  [ben_Beng] 195/653 segments
+  [ben_Beng] 348/653 segments
+  [ben_Beng] 572/653 segments
+  [ben_Beng] 216/1451 segments
+  [ben_Beng] 535/1451 segments
+  [ben_Beng] 855/1451 segments
+  [ben_Beng] 1175/1451 segments
+[mt] ben_Beng: 300 rows, 748.8s
+  [urd_Arab] 67/609 segments
+  [urd_Arab] 174/609 segments
+  [urd_Arab] 314/609 segments
+  [urd_Arab] 510/609 segments
+  [urd_Arab] 215/1455 segments
+  [urd_Arab] 533/1455 segments
+  [urd_Arab] 853/1455 segments
+  [urd_Arab] 1173/1455 segments
+[mt] urd_Arab: 300 rows, 825.5s
+  [npi_Deva] 85/666 segments
+  [npi_Deva] 211/666 segments
+  [npi_Deva] 373/666 segments
+  [npi_Deva] 614/666 segments
+  [npi_Deva] 228/1447 segments
+  [npi_Deva] 548/1447 segments
+  [npi_Deva] 868/1447 segments
+  [npi_Deva] 1188/1447 segments
+[mt] npi_Deva: 300 rows, 945.4s
+  [mar_Deva] 67/649 segments
+  [mar_Deva] 178/649 segments
+  [mar_Deva] 320/649 segments
+  [mar_Deva] 516/649 segments
+  [mar_Deva] 220/1449 segments
+  [mar_Deva] 540/1449 segments
+  [mar_Deva] 860/1449 segments
+  [mar_Deva] 1180/1449 segments
+[mt] mar_Deva: 300 rows, 974.1s
+  [tel_Telu] 69/639 segments
+  [tel_Telu] 180/639 segments
+  [tel_Telu] 322/639 segments
+  [tel_Telu] 523/639 segments
+  [tel_Telu] 213/1458 segments
+  [tel_Telu] 531/1458 segments
+  [tel_Telu] 851/1458 segments
+  [tel_Telu] 1171/1458 segments
+[mt] tel_Telu: 300 rows, 1673.9s
+  [tam_Taml] 58/652 segments
+  [tam_Taml] 150/652 segments
+  [tam_Taml] 265/652 segments
+  [tam_Taml] 406/652 segments
+  [tam_Taml] 618/652 segments
+  [tam_Taml] 178/1456 segments
+  [tam_Taml] 468/1456 segments
+  [tam_Taml] 788/1456 segments
+  [tam_Taml] 1108/1456 segments
+  [tam_Taml] 1428/1456 segments
+[mt] tam_Taml: 300 rows, 1321.1s
+  [guj_Gujr] 72/642 segments
+  [guj_Gujr] 187/642 segments
+  [guj_Gujr] 339/642 segments
+  [guj_Gujr] 560/642 segments
+  [guj_Gujr] 254/1461 segments
+  [guj_Gujr] 574/1461 segments
+  [guj_Gujr] 894/1461 segments
+  [guj_Gujr] 1214/1461 segments
+[mt] guj_Gujr: 300 rows, 1294.9s
+  [kan_Knda] 76/668 segments
+  [kan_Knda] 186/668 segments
+  [kan_Knda] 324/668 segments
+  [kan_Knda] 506/668 segments
+  [kan_Knda] 205/1454 segments
+  [kan_Knda] 521/1454 segments
+  [kan_Knda] 841/1454 segments
+  [kan_Knda] 1161/1454 segments
+  [kan_Knda] 1454/1454 segments
+[mt] kan_Knda: 300 rows, 1177.3s
+  [mal_Mlym] 55/651 segments
+  [mal_Mlym] 149/651 segments
+  [mal_Mlym] 266/651 segments
+  [mal_Mlym] 417/651 segments
+  [mal_Mlym] 648/651 segments
+  [mal_Mlym] 181/1451 segments
+  [mal_Mlym] 475/1451 segments
+  [mal_Mlym] 795/1451 segments
+  [mal_Mlym] 1115/1451 segments
+  [mal_Mlym] 1435/1451 segments
+[mt] mal_Mlym: 300 rows, 1271.6s
+  [pan_Guru] 76/662 segments
+  [pan_Guru] 191/662 segments
+  [pan_Guru] 336/662 segments
+  [pan_Guru] 535/662 segments
+  [pan_Guru] 203/1455 segments
+  [pan_Guru] 520/1455 segments
+  [pan_Guru] 840/1455 segments
+  [pan_Guru] 1160/1455 segments
+  [pan_Guru] 1455/1455 segments
+[mt] pan_Guru: 300 rows, 1184.0s
+  [ory_Orya] 70/643 segments
+  [ory_Orya] 179/643 segments
+  [ory_Orya] 319/643 segments
+  [ory_Orya] 510/643 segments
+  [ory_Orya] 204/1451 segments
+  [ory_Orya] 521/1451 segments
+  [ory_Orya] 841/1451 segments
+  [ory_Orya] 1161/1451 segments
+  [ory_Orya] 1451/1451 segments
+[mt] ory_Orya: 300 rows, 1057.5s
+  [asm_Beng] 59/587 segments
+  [asm_Beng] 161/587 segments
+  [asm_Beng] 300/587 segments
+  [asm_Beng] 510/587 segments
+  [asm_Beng] 227/1457 segments
+  [asm_Beng] 547/1457 segments
+  [asm_Beng] 867/1457 segments
+  [asm_Beng] 1187/1457 segments
+[mt] asm_Beng: 300 rows, 2066.2s
+validation reports written to reports/bridge
+    15365.31 real      4670.75 user      1946.28 sys
+          5874892800  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            56029769  page reclaims
+              208543  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+             2594809  voluntary context switches
+            79355817  involuntary context switches
+      29476204273758  instructions retired
+      18980593259822  cycles elapsed
+         45972401416  peak memory footprint

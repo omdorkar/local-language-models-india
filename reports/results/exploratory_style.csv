@@ -1,0 +1,16 @@
+model,condition,reference,n,accuracy_pct,gap_pp,ci_low,ci_high,b,c,p_unadjusted
+gemma3-12b,eng_Latn+inde,eng_Latn,300,87.0,-3.7,-6.7,-0.7,17,6,0.03468966484069824
+gpt-oss-20b,eng_Latn+inde,eng_Latn,300,90.7,-1.3,-4.7,1.7,14,10,0.5412561893463135
+llama3.1-8b,eng_Latn+inde,eng_Latn,300,89.0,-3.3,-6.3,-0.7,15,5,0.04138946533203125
+qwen3-8b,eng_Latn+inde,eng_Latn,300,90.3,-2.3,-4.7,0.0,10,3,0.09228515625
+sarvam-30b,eng_Latn+inde,eng_Latn,300,79.3,-7.3,-11.0,-3.7,28,6,0.00019512558355927467
+gemma3-12b,hin_Latn+cm,eng_Latn,300,75.3,-15.3,-19.7,-11.0,49,3,1.042677055806962e-11
+gpt-oss-20b,hin_Latn+cm,eng_Latn,300,78.3,-13.7,-18.3,-9.3,48,7,1.3087586125948292e-08
+llama3.1-8b,hin_Latn+cm,eng_Latn,300,63.3,-29.0,-34.7,-23.7,92,5,8.590765687358437e-22
+qwen3-8b,hin_Latn+cm,eng_Latn,300,70.3,-22.3,-27.7,-17.0,75,8,9.099722954884666e-15
+sarvam-30b,hin_Latn+cm,eng_Latn,300,65.3,-21.3,-26.7,-16.0,72,8,5.375095844566712e-14
+gemma3-12b,hin_Latn+cm,hin_Latn,300,75.3,0.0,-3.7,3.7,16,16,1.0
+gpt-oss-20b,hin_Latn+cm,hin_Latn,300,78.3,1.0,-3.0,5.0,17,20,0.7428293587290682
+llama3.1-8b,hin_Latn+cm,hin_Latn,300,63.3,5.0,0.7,9.3,17,32,0.04438416098714981
+qwen3-8b,hin_Latn+cm,hin_Latn,300,70.3,3.3,-1.0,8.0,18,28,0.18392482137699062
+sarvam-30b,hin_Latn+cm,hin_Latn,300,65.3,-3.0,-7.3,1.3,25,16,0.21102359760880063

@@ -1,0 +1,1190 @@
+
+##### 2026-10-21 17:47:55  1. Belebele, 5 models, 18 human conditions
+benchmark=belebele items=300 conditions=18 rows per model=5400 template=d3ee3d7bd6e7
+  gemma3-12b      [gemma3:12b] done=0 to_do=5400 calibration_row=no
+  qwen3-8b        [qwen3:8b] done=0 to_do=5400 calibration_row=no
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=5400 calibration_row=no
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=5400 calibration_row=no
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=5400 calibration_row=no
+
+=== gemma3-12b (gemma3:12b) ===
+  belebele/gemma3-12b: 100/5400 rows, ETA 338 min
+  belebele/gemma3-12b: 200/5400 rows, ETA 340 min
+  belebele/gemma3-12b: 300/5400 rows, ETA 333 min
+  belebele/gemma3-12b: 400/5400 rows, ETA 314 min
+  belebele/gemma3-12b: 500/5400 rows, ETA 295 min
+  belebele/gemma3-12b: 600/5400 rows, ETA 278 min
+  belebele/gemma3-12b: 700/5400 rows, ETA 266 min
+  belebele/gemma3-12b: 800/5400 rows, ETA 254 min
+  belebele/gemma3-12b: 900/5400 rows, ETA 245 min
+  belebele/gemma3-12b: 1000/5400 rows, ETA 236 min
+  belebele/gemma3-12b: 1100/5400 rows, ETA 227 min
+  belebele/gemma3-12b: 1200/5400 rows, ETA 219 min
+  belebele/gemma3-12b: 1300/5400 rows, ETA 213 min
+  belebele/gemma3-12b: 1400/5400 rows, ETA 206 min
+  belebele/gemma3-12b: 1500/5400 rows, ETA 200 min
+  belebele/gemma3-12b: 1600/5400 rows, ETA 194 min
+  belebele/gemma3-12b: 1700/5400 rows, ETA 188 min
+  belebele/gemma3-12b: 1800/5400 rows, ETA 182 min
+  belebele/gemma3-12b: 1900/5400 rows, ETA 176 min
+  belebele/gemma3-12b: 2000/5400 rows, ETA 170 min
+  belebele/gemma3-12b: 2100/5400 rows, ETA 165 min
+  belebele/gemma3-12b: 2200/5400 rows, ETA 160 min
+  belebele/gemma3-12b: 2300/5400 rows, ETA 155 min
+  belebele/gemma3-12b: 2400/5400 rows, ETA 149 min
+  belebele/gemma3-12b: 2500/5400 rows, ETA 144 min
+  belebele/gemma3-12b: 2600/5400 rows, ETA 138 min
+  belebele/gemma3-12b: 2700/5400 rows, ETA 133 min
+  belebele/gemma3-12b: 2800/5400 rows, ETA 128 min
+  belebele/gemma3-12b: 2900/5400 rows, ETA 123 min
+  belebele/gemma3-12b: 3000/5400 rows, ETA 117 min
+  belebele/gemma3-12b: 3100/5400 rows, ETA 112 min
+  belebele/gemma3-12b: 3200/5400 rows, ETA 107 min
+  belebele/gemma3-12b: 3300/5400 rows, ETA 102 min
+  belebele/gemma3-12b: 3400/5400 rows, ETA 98 min
+  belebele/gemma3-12b: 3500/5400 rows, ETA 94 min
+  belebele/gemma3-12b: 3600/5400 rows, ETA 90 min
+  belebele/gemma3-12b: 3700/5400 rows, ETA 86 min
+  belebele/gemma3-12b: 3800/5400 rows, ETA 82 min
+  belebele/gemma3-12b: 3900/5400 rows, ETA 77 min
+  belebele/gemma3-12b: 4000/5400 rows, ETA 71 min
+  belebele/gemma3-12b: 4100/5400 rows, ETA 66 min
+  belebele/gemma3-12b: 4200/5400 rows, ETA 61 min
+  belebele/gemma3-12b: 4300/5400 rows, ETA 56 min
+  belebele/gemma3-12b: 4400/5400 rows, ETA 51 min
+  belebele/gemma3-12b: 4500/5400 rows, ETA 46 min
+  belebele/gemma3-12b: 4600/5400 rows, ETA 40 min
+  belebele/gemma3-12b: 4700/5400 rows, ETA 35 min
+  belebele/gemma3-12b: 4800/5400 rows, ETA 30 min
+  belebele/gemma3-12b: 4900/5400 rows, ETA 25 min
+  belebele/gemma3-12b: 5000/5400 rows, ETA 20 min
+  belebele/gemma3-12b: 5100/5400 rows, ETA 15 min
+  belebele/gemma3-12b: 5200/5400 rows, ETA 14 min
+  belebele/gemma3-12b: 5300/5400 rows, ETA 7 min
+  belebele/gemma3-12b: 5400/5400 rows, ETA 0 min
+gemma3-12b: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.837        0
+ ben_Beng 300     0.830        0
+ eng_Latn 300     0.907        0
+ tel_Telu 300     0.757        0
+ urd_Latn 300     0.667        0
+ npi_Latn 300     0.543        0
+ ory_Orya 300     0.813        0
+ kan_Knda 300     0.800        0
+ mal_Mlym 300     0.803        0
+ ben_Latn 300     0.557        0
+ urd_Arab 300     0.810        0
+ hin_Latn 300     0.753        0
+ pan_Guru 300     0.800        0
+ guj_Gujr 300     0.837        0
+ tam_Taml 300     0.803        0
+ asm_Beng 300     0.770        0
+ hin_Deva 300     0.797        0
+ npi_Deva 300     0.813        0
+
+=== qwen3-8b (qwen3:8b) ===
+  belebele/qwen3-8b: 100/5400 rows, ETA 214 min
+  belebele/qwen3-8b: 200/5400 rows, ETA 200 min
+  belebele/qwen3-8b: 300/5400 rows, ETA 191 min
+  belebele/qwen3-8b: 400/5400 rows, ETA 187 min
+  belebele/qwen3-8b: 500/5400 rows, ETA 182 min
+  belebele/qwen3-8b: 600/5400 rows, ETA 178 min
+  belebele/qwen3-8b: 700/5400 rows, ETA 174 min
+  belebele/qwen3-8b: 800/5400 rows, ETA 170 min
+  belebele/qwen3-8b: 900/5400 rows, ETA 167 min
+  belebele/qwen3-8b: 1000/5400 rows, ETA 164 min
+  belebele/qwen3-8b: 1100/5400 rows, ETA 159 min
+  belebele/qwen3-8b: 1200/5400 rows, ETA 154 min
+  belebele/qwen3-8b: 1300/5400 rows, ETA 151 min
+  belebele/qwen3-8b: 1400/5400 rows, ETA 147 min
+  belebele/qwen3-8b: 1500/5400 rows, ETA 144 min
+  belebele/qwen3-8b: 1600/5400 rows, ETA 141 min
+  belebele/qwen3-8b: 1700/5400 rows, ETA 137 min
+  belebele/qwen3-8b: 1800/5400 rows, ETA 134 min
+  belebele/qwen3-8b: 1900/5400 rows, ETA 130 min
+  belebele/qwen3-8b: 2000/5400 rows, ETA 126 min
+  belebele/qwen3-8b: 2100/5400 rows, ETA 123 min
+  belebele/qwen3-8b: 2200/5400 rows, ETA 119 min
+  belebele/qwen3-8b: 2300/5400 rows, ETA 116 min
+  belebele/qwen3-8b: 2400/5400 rows, ETA 112 min
+  belebele/qwen3-8b: 2500/5400 rows, ETA 108 min
+  belebele/qwen3-8b: 2600/5400 rows, ETA 104 min
+  belebele/qwen3-8b: 2700/5400 rows, ETA 101 min
+  belebele/qwen3-8b: 2800/5400 rows, ETA 97 min
+  belebele/qwen3-8b: 2900/5400 rows, ETA 93 min
+  belebele/qwen3-8b: 3000/5400 rows, ETA 89 min
+  belebele/qwen3-8b: 3100/5400 rows, ETA 85 min
+  belebele/qwen3-8b: 3200/5400 rows, ETA 82 min
+  belebele/qwen3-8b: 3300/5400 rows, ETA 78 min
+  belebele/qwen3-8b: 3400/5400 rows, ETA 74 min
+  belebele/qwen3-8b: 3500/5400 rows, ETA 70 min
+  belebele/qwen3-8b: 3600/5400 rows, ETA 67 min
+  belebele/qwen3-8b: 3700/5400 rows, ETA 63 min
+  belebele/qwen3-8b: 3800/5400 rows, ETA 59 min
+  belebele/qwen3-8b: 3900/5400 rows, ETA 55 min
+  belebele/qwen3-8b: 4000/5400 rows, ETA 52 min
+  belebele/qwen3-8b: 4100/5400 rows, ETA 48 min
+  belebele/qwen3-8b: 4200/5400 rows, ETA 44 min
+  belebele/qwen3-8b: 4300/5400 rows, ETA 41 min
+  belebele/qwen3-8b: 4400/5400 rows, ETA 37 min
+  belebele/qwen3-8b: 4500/5400 rows, ETA 33 min
+  belebele/qwen3-8b: 4600/5400 rows, ETA 30 min
+  belebele/qwen3-8b: 4700/5400 rows, ETA 26 min
+  belebele/qwen3-8b: 4800/5400 rows, ETA 22 min
+  belebele/qwen3-8b: 4900/5400 rows, ETA 18 min
+  belebele/qwen3-8b: 5000/5400 rows, ETA 15 min
+  belebele/qwen3-8b: 5100/5400 rows, ETA 11 min
+  belebele/qwen3-8b: 5200/5400 rows, ETA 7 min
+  belebele/qwen3-8b: 5300/5400 rows, ETA 4 min
+  belebele/qwen3-8b: 5400/5400 rows, ETA 0 min
+qwen3-8b: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.787        0
+ ben_Beng 300     0.710        0
+ eng_Latn 300     0.927        0
+ tel_Telu 300     0.670        0
+ urd_Latn 300     0.500        0
+ npi_Latn 300     0.420        0
+ ory_Orya 300     0.780        0
+ kan_Knda 300     0.693        0
+ mal_Mlym 300     0.747        0
+ ben_Latn 300     0.417        0
+ urd_Arab 300     0.747        0
+ hin_Latn 300     0.670        0
+ pan_Guru 300     0.777        0
+ guj_Gujr 300     0.733        0
+ tam_Taml 300     0.707        0
+ asm_Beng 300     0.643        0
+ hin_Deva 300     0.740        0
+ npi_Deva 300     0.690        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  belebele/llama3.1-8b: 100/5400 rows, ETA 238 min
+  belebele/llama3.1-8b: 200/5400 rows, ETA 216 min
+  belebele/llama3.1-8b: 300/5400 rows, ETA 203 min
+  belebele/llama3.1-8b: 400/5400 rows, ETA 199 min
+  belebele/llama3.1-8b: 500/5400 rows, ETA 195 min
+  belebele/llama3.1-8b: 600/5400 rows, ETA 190 min
+  belebele/llama3.1-8b: 700/5400 rows, ETA 186 min
+  belebele/llama3.1-8b: 800/5400 rows, ETA 181 min
+  belebele/llama3.1-8b: 900/5400 rows, ETA 178 min
+  belebele/llama3.1-8b: 1000/5400 rows, ETA 173 min
+  belebele/llama3.1-8b: 1100/5400 rows, ETA 168 min
+  belebele/llama3.1-8b: 1200/5400 rows, ETA 163 min
+  belebele/llama3.1-8b: 1300/5400 rows, ETA 160 min
+  belebele/llama3.1-8b: 1400/5400 rows, ETA 155 min
+  belebele/llama3.1-8b: 1500/5400 rows, ETA 152 min
+  belebele/llama3.1-8b: 1600/5400 rows, ETA 148 min
+  belebele/llama3.1-8b: 1700/5400 rows, ETA 144 min
+  belebele/llama3.1-8b: 1800/5400 rows, ETA 141 min
+  belebele/llama3.1-8b: 1900/5400 rows, ETA 137 min
+  belebele/llama3.1-8b: 2000/5400 rows, ETA 132 min
+  belebele/llama3.1-8b: 2100/5400 rows, ETA 129 min
+  belebele/llama3.1-8b: 2200/5400 rows, ETA 125 min
+  belebele/llama3.1-8b: 2300/5400 rows, ETA 122 min
+  belebele/llama3.1-8b: 2400/5400 rows, ETA 117 min
+  belebele/llama3.1-8b: 2500/5400 rows, ETA 113 min
+  belebele/llama3.1-8b: 2600/5400 rows, ETA 109 min
+  belebele/llama3.1-8b: 2700/5400 rows, ETA 106 min
+  belebele/llama3.1-8b: 2800/5400 rows, ETA 101 min
+  belebele/llama3.1-8b: 2900/5400 rows, ETA 97 min
+  belebele/llama3.1-8b: 3000/5400 rows, ETA 93 min
+  belebele/llama3.1-8b: 3100/5400 rows, ETA 89 min
+  belebele/llama3.1-8b: 3200/5400 rows, ETA 85 min
+  belebele/llama3.1-8b: 3300/5400 rows, ETA 81 min
+  belebele/llama3.1-8b: 3400/5400 rows, ETA 78 min
+  belebele/llama3.1-8b: 3500/5400 rows, ETA 74 min
+  belebele/llama3.1-8b: 3600/5400 rows, ETA 70 min
+  belebele/llama3.1-8b: 3700/5400 rows, ETA 66 min
+  belebele/llama3.1-8b: 3800/5400 rows, ETA 62 min
+  belebele/llama3.1-8b: 3900/5400 rows, ETA 58 min
+  belebele/llama3.1-8b: 4000/5400 rows, ETA 54 min
+  belebele/llama3.1-8b: 4100/5400 rows, ETA 50 min
+  belebele/llama3.1-8b: 4200/5400 rows, ETA 46 min
+  belebele/llama3.1-8b: 4300/5400 rows, ETA 42 min
+  belebele/llama3.1-8b: 4400/5400 rows, ETA 39 min
+  belebele/llama3.1-8b: 4500/5400 rows, ETA 35 min
+  belebele/llama3.1-8b: 4600/5400 rows, ETA 31 min
+  belebele/llama3.1-8b: 4700/5400 rows, ETA 27 min
+  belebele/llama3.1-8b: 4800/5400 rows, ETA 23 min
+  belebele/llama3.1-8b: 4900/5400 rows, ETA 19 min
+  belebele/llama3.1-8b: 5000/5400 rows, ETA 15 min
+  belebele/llama3.1-8b: 5100/5400 rows, ETA 12 min
+  belebele/llama3.1-8b: 5200/5400 rows, ETA 8 min
+  belebele/llama3.1-8b: 5300/5400 rows, ETA 4 min
+  belebele/llama3.1-8b: 5400/5400 rows, ETA 0 min
+llama3.1-8b: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.733        0
+ ben_Beng 300     0.697        0
+ eng_Latn 300     0.923        0
+ tel_Telu 300     0.650        0
+ urd_Latn 300     0.410        0
+ npi_Latn 300     0.387        0
+ ory_Orya 300     0.580        0
+ kan_Knda 300     0.653        0
+ mal_Mlym 300     0.650        0
+ ben_Latn 300     0.383        0
+ urd_Arab 300     0.673        0
+ hin_Latn 300     0.583        0
+ pan_Guru 300     0.683        0
+ guj_Gujr 300     0.607        0
+ tam_Taml 300     0.663        0
+ asm_Beng 300     0.567        0
+ hin_Deva 300     0.717        0
+ npi_Deva 300     0.587        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  belebele/gpt-oss-20b: 100/5400 rows, ETA 284 min
+  belebele/gpt-oss-20b: 200/5400 rows, ETA 283 min
+  belebele/gpt-oss-20b: 300/5400 rows, ETA 276 min
+  belebele/gpt-oss-20b: 400/5400 rows, ETA 277 min
+  belebele/gpt-oss-20b: 500/5400 rows, ETA 276 min
+  belebele/gpt-oss-20b: 600/5400 rows, ETA 270 min
+  belebele/gpt-oss-20b: 700/5400 rows, ETA 264 min
+  belebele/gpt-oss-20b: 800/5400 rows, ETA 260 min
+  belebele/gpt-oss-20b: 900/5400 rows, ETA 255 min
+  belebele/gpt-oss-20b: 1000/5400 rows, ETA 249 min
+  belebele/gpt-oss-20b: 1100/5400 rows, ETA 244 min
+  belebele/gpt-oss-20b: 1200/5400 rows, ETA 240 min
+  belebele/gpt-oss-20b: 1300/5400 rows, ETA 235 min
+  belebele/gpt-oss-20b: 1400/5400 rows, ETA 229 min
+  belebele/gpt-oss-20b: 1500/5400 rows, ETA 224 min
+  belebele/gpt-oss-20b: 1600/5400 rows, ETA 218 min
+  belebele/gpt-oss-20b: 1700/5400 rows, ETA 212 min
+  belebele/gpt-oss-20b: 1800/5400 rows, ETA 208 min
+  belebele/gpt-oss-20b: 1900/5400 rows, ETA 203 min
+  belebele/gpt-oss-20b: 2000/5400 rows, ETA 197 min
+  belebele/gpt-oss-20b: 2100/5400 rows, ETA 191 min
+  belebele/gpt-oss-20b: 2200/5400 rows, ETA 185 min
+  belebele/gpt-oss-20b: 2300/5400 rows, ETA 180 min
+  belebele/gpt-oss-20b: 2400/5400 rows, ETA 174 min
+  belebele/gpt-oss-20b: 2500/5400 rows, ETA 168 min
+  belebele/gpt-oss-20b: 2600/5400 rows, ETA 163 min
+  belebele/gpt-oss-20b: 2700/5400 rows, ETA 157 min
+  belebele/gpt-oss-20b: 2800/5400 rows, ETA 151 min
+  belebele/gpt-oss-20b: 2900/5400 rows, ETA 146 min
+  belebele/gpt-oss-20b: 3000/5400 rows, ETA 140 min
+  belebele/gpt-oss-20b: 3100/5400 rows, ETA 134 min
+  belebele/gpt-oss-20b: 3200/5400 rows, ETA 130 min
+  belebele/gpt-oss-20b: 3300/5400 rows, ETA 125 min
+  belebele/gpt-oss-20b: 3400/5400 rows, ETA 121 min
+  belebele/gpt-oss-20b: 3500/5400 rows, ETA 116 min
+  belebele/gpt-oss-20b: 3600/5400 rows, ETA 111 min
+  belebele/gpt-oss-20b: 3700/5400 rows, ETA 106 min
+  belebele/gpt-oss-20b: 3800/5400 rows, ETA 100 min
+  belebele/gpt-oss-20b: 3900/5400 rows, ETA 95 min
+  belebele/gpt-oss-20b: 4000/5400 rows, ETA 89 min
+  belebele/gpt-oss-20b: 4100/5400 rows, ETA 83 min
+  belebele/gpt-oss-20b: 4200/5400 rows, ETA 77 min
+  belebele/gpt-oss-20b: 4300/5400 rows, ETA 71 min
+  belebele/gpt-oss-20b: 4400/5400 rows, ETA 65 min
+  belebele/gpt-oss-20b: 4500/5400 rows, ETA 59 min
+  belebele/gpt-oss-20b: 4600/5400 rows, ETA 53 min
+  belebele/gpt-oss-20b: 4700/5400 rows, ETA 47 min
+  belebele/gpt-oss-20b: 4800/5400 rows, ETA 40 min
+  belebele/gpt-oss-20b: 4900/5400 rows, ETA 34 min
+  belebele/gpt-oss-20b: 5000/5400 rows, ETA 27 min
+  belebele/gpt-oss-20b: 5100/5400 rows, ETA 20 min
+  belebele/gpt-oss-20b: 5200/5400 rows, ETA 14 min
+  belebele/gpt-oss-20b: 5300/5400 rows, ETA 7 min
+  belebele/gpt-oss-20b: 5400/5400 rows, ETA 0 min
+gpt-oss-20b: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.753        1
+ ben_Beng 300     0.777        1
+ eng_Latn 300     0.920        2
+ tel_Telu 300     0.650        0
+ urd_Latn 300     0.603        1
+ npi_Latn 300     0.577        2
+ ory_Orya 300     0.847        1
+ kan_Knda 300     0.677        1
+ mal_Mlym 300     0.660        1
+ ben_Latn 300     0.610        2
+ urd_Arab 300     0.790        1
+ hin_Latn 300     0.773        0
+ pan_Guru 300     0.770        2
+ guj_Gujr 300     0.730        5
+ tam_Taml 300     0.597        4
+ asm_Beng 300     0.693        2
+ hin_Deva 300     0.707        3
+ npi_Deva 300     0.640        0
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  belebele/sarvam-30b: 100/5400 rows, ETA 62 min
+  belebele/sarvam-30b: 200/5400 rows, ETA 62 min
+  belebele/sarvam-30b: 300/5400 rows, ETA 60 min
+  belebele/sarvam-30b: 400/5400 rows, ETA 59 min
+  belebele/sarvam-30b: 500/5400 rows, ETA 58 min
+  belebele/sarvam-30b: 600/5400 rows, ETA 57 min
+  belebele/sarvam-30b: 700/5400 rows, ETA 57 min
+  belebele/sarvam-30b: 800/5400 rows, ETA 56 min
+  belebele/sarvam-30b: 900/5400 rows, ETA 55 min
+  belebele/sarvam-30b: 1000/5400 rows, ETA 54 min
+  belebele/sarvam-30b: 1100/5400 rows, ETA 53 min
+  belebele/sarvam-30b: 1200/5400 rows, ETA 52 min
+  belebele/sarvam-30b: 1300/5400 rows, ETA 823 min
+  belebele/sarvam-30b: 1400/5400 rows, ETA 749 min
+  belebele/sarvam-30b: 1500/5400 rows, ETA 685 min
+  belebele/sarvam-30b: 1600/5400 rows, ETA 629 min
+  belebele/sarvam-30b: 1700/5400 rows, ETA 578 min
+  belebele/sarvam-30b: 1800/5400 rows, ETA 533 min
+  belebele/sarvam-30b: 1900/5400 rows, ETA 492 min
+  belebele/sarvam-30b: 2000/5400 rows, ETA 455 min
+  belebele/sarvam-30b: 2100/5400 rows, ETA 422 min
+  belebele/sarvam-30b: 2200/5400 rows, ETA 392 min
+  belebele/sarvam-30b: 2300/5400 rows, ETA 364 min
+  belebele/sarvam-30b: 2400/5400 rows, ETA 339 min
+  belebele/sarvam-30b: 2500/5400 rows, ETA 315 min
+  belebele/sarvam-30b: 2600/5400 rows, ETA 293 min
+  belebele/sarvam-30b: 2700/5400 rows, ETA 273 min
+  belebele/sarvam-30b: 2800/5400 rows, ETA 254 min
+  belebele/sarvam-30b: 2900/5400 rows, ETA 237 min
+  belebele/sarvam-30b: 3000/5400 rows, ETA 220 min
+  belebele/sarvam-30b: 3100/5400 rows, ETA 205 min
+  belebele/sarvam-30b: 3200/5400 rows, ETA 190 min
+  belebele/sarvam-30b: 3300/5400 rows, ETA 177 min
+  belebele/sarvam-30b: 3400/5400 rows, ETA 164 min
+  belebele/sarvam-30b: 3500/5400 rows, ETA 152 min
+  belebele/sarvam-30b: 3600/5400 rows, ETA 140 min
+  belebele/sarvam-30b: 3700/5400 rows, ETA 129 min
+  belebele/sarvam-30b: 3800/5400 rows, ETA 119 min
+  belebele/sarvam-30b: 3900/5400 rows, ETA 109 min
+  belebele/sarvam-30b: 4000/5400 rows, ETA 99 min
+  belebele/sarvam-30b: 4100/5400 rows, ETA 90 min
+  belebele/sarvam-30b: 4200/5400 rows, ETA 81 min
+  belebele/sarvam-30b: 4300/5400 rows, ETA 73 min
+  belebele/sarvam-30b: 4400/5400 rows, ETA 65 min
+  belebele/sarvam-30b: 4500/5400 rows, ETA 57 min
+  belebele/sarvam-30b: 4600/5400 rows, ETA 50 min
+  belebele/sarvam-30b: 4700/5400 rows, ETA 43 min
+  belebele/sarvam-30b: 4800/5400 rows, ETA 36 min
+  belebele/sarvam-30b: 4900/5400 rows, ETA 30 min
+  belebele/sarvam-30b: 5000/5400 rows, ETA 23 min
+  belebele/sarvam-30b: 5100/5400 rows, ETA 17 min
+  belebele/sarvam-30b: 5200/5400 rows, ETA 11 min
+  belebele/sarvam-30b: 5300/5400 rows, ETA 6 min
+  belebele/sarvam-30b: 5400/5400 rows, ETA 0 min
+sarvam-30b: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.730        0
+ ben_Beng 300     0.720        0
+ eng_Latn 300     0.867        0
+ tel_Telu 300     0.677        0
+ urd_Latn 300     0.447        0
+ npi_Latn 300     0.557        0
+ ory_Orya 300     0.717        0
+ kan_Knda 300     0.683        0
+ mal_Mlym 300     0.717        0
+ ben_Latn 300     0.583        0
+ urd_Arab 300     0.703        0
+ hin_Latn 300     0.683        0
+ pan_Guru 300     0.700        0
+ guj_Gujr 300     0.693        0
+ tam_Taml 300     0.727        0
+ asm_Beng 300     0.717        0
+ hin_Deva 300     0.723        0
+ npi_Deva 300     0.677        0
+
+##### 2026-10-22 17:56:38  2. Global-MMLU-Lite (en hi bn or)
+benchmark=gmmlu_lite items=400 conditions=4 rows per model=1600 template=e75ed63946d7
+  gemma3-12b      [gemma3:12b] done=0 to_do=1600 calibration_row=no
+  qwen3-8b        [qwen3:8b] done=0 to_do=1600 calibration_row=no
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=1600 calibration_row=no
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=1600 calibration_row=no
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=1600 calibration_row=no
+
+=== gemma3-12b (gemma3:12b) ===
+  gmmlu_lite/gemma3-12b: 100/1600 rows, ETA 40 min
+  gmmlu_lite/gemma3-12b: 200/1600 rows, ETA 36 min
+  gmmlu_lite/gemma3-12b: 300/1600 rows, ETA 33 min
+  gmmlu_lite/gemma3-12b: 400/1600 rows, ETA 31 min
+  gmmlu_lite/gemma3-12b: 500/1600 rows, ETA 28 min
+  gmmlu_lite/gemma3-12b: 600/1600 rows, ETA 25 min
+  gmmlu_lite/gemma3-12b: 700/1600 rows, ETA 23 min
+  gmmlu_lite/gemma3-12b: 800/1600 rows, ETA 21 min
+  gmmlu_lite/gemma3-12b: 900/1600 rows, ETA 18 min
+  gmmlu_lite/gemma3-12b: 1000/1600 rows, ETA 15 min
+  gmmlu_lite/gemma3-12b: 1100/1600 rows, ETA 13 min
+  gmmlu_lite/gemma3-12b: 1200/1600 rows, ETA 10 min
+  gmmlu_lite/gemma3-12b: 1300/1600 rows, ETA 8 min
+  gmmlu_lite/gemma3-12b: 1400/1600 rows, ETA 5 min
+  gmmlu_lite/gemma3-12b: 1500/1600 rows, ETA 3 min
+  gmmlu_lite/gemma3-12b: 1600/1600 rows, ETA 0 min
+gemma3-12b: wrote 1600 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       bn 400     0.605        0
+       hi 400     0.640        0
+       en 400     0.752        0
+       or 400     0.512        0
+
+=== qwen3-8b (qwen3:8b) ===
+  gmmlu_lite/qwen3-8b: 100/1600 rows, ETA 40 min
+  gmmlu_lite/qwen3-8b: 200/1600 rows, ETA 35 min
+  gmmlu_lite/qwen3-8b: 300/1600 rows, ETA 31 min
+  gmmlu_lite/qwen3-8b: 400/1600 rows, ETA 29 min
+  gmmlu_lite/qwen3-8b: 500/1600 rows, ETA 26 min
+  gmmlu_lite/qwen3-8b: 600/1600 rows, ETA 23 min
+  gmmlu_lite/qwen3-8b: 700/1600 rows, ETA 22 min
+  gmmlu_lite/qwen3-8b: 800/1600 rows, ETA 20 min
+  gmmlu_lite/qwen3-8b: 900/1600 rows, ETA 17 min
+  gmmlu_lite/qwen3-8b: 1000/1600 rows, ETA 15 min
+  gmmlu_lite/qwen3-8b: 1100/1600 rows, ETA 12 min
+  gmmlu_lite/qwen3-8b: 1200/1600 rows, ETA 10 min
+  gmmlu_lite/qwen3-8b: 1300/1600 rows, ETA 7 min
+  gmmlu_lite/qwen3-8b: 1400/1600 rows, ETA 5 min
+  gmmlu_lite/qwen3-8b: 1500/1600 rows, ETA 2 min
+  gmmlu_lite/qwen3-8b: 1600/1600 rows, ETA 0 min
+qwen3-8b: wrote 1600 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       bn 400     0.488        0
+       hi 400     0.532        0
+       en 400     0.755        0
+       or 400     0.428        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  gmmlu_lite/llama3.1-8b: 100/1600 rows, ETA 41 min
+  gmmlu_lite/llama3.1-8b: 200/1600 rows, ETA 36 min
+  gmmlu_lite/llama3.1-8b: 300/1600 rows, ETA 31 min
+  gmmlu_lite/llama3.1-8b: 400/1600 rows, ETA 30 min
+  gmmlu_lite/llama3.1-8b: 500/1600 rows, ETA 27 min
+  gmmlu_lite/llama3.1-8b: 600/1600 rows, ETA 24 min
+  gmmlu_lite/llama3.1-8b: 700/1600 rows, ETA 22 min
+  gmmlu_lite/llama3.1-8b: 800/1600 rows, ETA 20 min
+  gmmlu_lite/llama3.1-8b: 900/1600 rows, ETA 18 min
+  gmmlu_lite/llama3.1-8b: 1000/1600 rows, ETA 15 min
+  gmmlu_lite/llama3.1-8b: 1100/1600 rows, ETA 13 min
+  gmmlu_lite/llama3.1-8b: 1200/1600 rows, ETA 10 min
+  gmmlu_lite/llama3.1-8b: 1300/1600 rows, ETA 8 min
+  gmmlu_lite/llama3.1-8b: 1400/1600 rows, ETA 5 min
+  gmmlu_lite/llama3.1-8b: 1500/1600 rows, ETA 2 min
+  gmmlu_lite/llama3.1-8b: 1600/1600 rows, ETA 0 min
+llama3.1-8b: wrote 1600 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       bn 400     0.442        0
+       hi 400     0.500        0
+       en 400     0.700        0
+       or 400     0.370        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  gmmlu_lite/gpt-oss-20b: 100/1600 rows, ETA 70 min
+  gmmlu_lite/gpt-oss-20b: 200/1600 rows, ETA 67 min
+  gmmlu_lite/gpt-oss-20b: 300/1600 rows, ETA 63 min
+  gmmlu_lite/gpt-oss-20b: 400/1600 rows, ETA 59 min
+  gmmlu_lite/gpt-oss-20b: 500/1600 rows, ETA 55 min
+  gmmlu_lite/gpt-oss-20b: 600/1600 rows, ETA 50 min
+  gmmlu_lite/gpt-oss-20b: 700/1600 rows, ETA 45 min
+  gmmlu_lite/gpt-oss-20b: 800/1600 rows, ETA 40 min
+  gmmlu_lite/gpt-oss-20b: 900/1600 rows, ETA 35 min
+  gmmlu_lite/gpt-oss-20b: 1000/1600 rows, ETA 30 min
+  gmmlu_lite/gpt-oss-20b: 1100/1600 rows, ETA 25 min
+  gmmlu_lite/gpt-oss-20b: 1200/1600 rows, ETA 20 min
+  gmmlu_lite/gpt-oss-20b: 1300/1600 rows, ETA 15 min
+  gmmlu_lite/gpt-oss-20b: 1400/1600 rows, ETA 10 min
+  gmmlu_lite/gpt-oss-20b: 1500/1600 rows, ETA 5 min
+  gmmlu_lite/gpt-oss-20b: 1600/1600 rows, ETA 0 min
+gpt-oss-20b: wrote 1600 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       bn 400     0.640        3
+       hi 400     0.658        3
+       en 400     0.800        6
+       or 400     0.658        2
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  gmmlu_lite/sarvam-30b: 100/1600 rows, ETA 10 min
+  gmmlu_lite/sarvam-30b: 200/1600 rows, ETA 9 min
+  gmmlu_lite/sarvam-30b: 300/1600 rows, ETA 8 min
+  gmmlu_lite/sarvam-30b: 400/1600 rows, ETA 7 min
+  gmmlu_lite/sarvam-30b: 500/1600 rows, ETA 7 min
+  gmmlu_lite/sarvam-30b: 600/1600 rows, ETA 6 min
+  gmmlu_lite/sarvam-30b: 700/1600 rows, ETA 6 min
+  gmmlu_lite/sarvam-30b: 800/1600 rows, ETA 5 min
+  gmmlu_lite/sarvam-30b: 900/1600 rows, ETA 4 min
+  gmmlu_lite/sarvam-30b: 1000/1600 rows, ETA 4 min
+  gmmlu_lite/sarvam-30b: 1100/1600 rows, ETA 3 min
+  gmmlu_lite/sarvam-30b: 1200/1600 rows, ETA 3 min
+  gmmlu_lite/sarvam-30b: 1300/1600 rows, ETA 2 min
+  gmmlu_lite/sarvam-30b: 1400/1600 rows, ETA 1 min
+  gmmlu_lite/sarvam-30b: 1500/1600 rows, ETA 1 min
+  gmmlu_lite/sarvam-30b: 1600/1600 rows, ETA 0 min
+sarvam-30b: wrote 1600 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       bn 400     0.578        0
+       hi 400     0.592        0
+       en 400     0.708        0
+       or 400     0.500        0
+
+##### 2026-10-22 21:27:39  3. Global-MMLU (en hi bn te ne)
+benchmark=gmmlu items=300 conditions=5 rows per model=1500 template=e75ed63946d7
+  gemma3-12b      [gemma3:12b] done=0 to_do=1500 calibration_row=no
+  qwen3-8b        [qwen3:8b] done=0 to_do=1500 calibration_row=no
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=1500 calibration_row=no
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=1500 calibration_row=no
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=1500 calibration_row=no
+
+=== gemma3-12b (gemma3:12b) ===
+  gmmlu/gemma3-12b: 100/1500 rows, ETA 33 min
+  gmmlu/gemma3-12b: 200/1500 rows, ETA 31 min
+  gmmlu/gemma3-12b: 300/1500 rows, ETA 29 min
+  gmmlu/gemma3-12b: 400/1500 rows, ETA 27 min
+  gmmlu/gemma3-12b: 500/1500 rows, ETA 24 min
+  gmmlu/gemma3-12b: 600/1500 rows, ETA 22 min
+  gmmlu/gemma3-12b: 700/1500 rows, ETA 19 min
+  gmmlu/gemma3-12b: 800/1500 rows, ETA 17 min
+  gmmlu/gemma3-12b: 900/1500 rows, ETA 14 min
+  gmmlu/gemma3-12b: 1000/1500 rows, ETA 12 min
+  gmmlu/gemma3-12b: 1100/1500 rows, ETA 10 min
+  gmmlu/gemma3-12b: 1200/1500 rows, ETA 7 min
+  gmmlu/gemma3-12b: 1300/1500 rows, ETA 5 min
+  gmmlu/gemma3-12b: 1400/1500 rows, ETA 2 min
+  gmmlu/gemma3-12b: 1500/1500 rows, ETA 0 min
+gemma3-12b: wrote 1500 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       ne 300     0.517        0
+       bn 300     0.573        0
+       en 300     0.720        0
+       hi 300     0.580        0
+       te 300     0.577        0
+
+=== qwen3-8b (qwen3:8b) ===
+  gmmlu/qwen3-8b: 100/1500 rows, ETA 33 min
+  gmmlu/qwen3-8b: 200/1500 rows, ETA 31 min
+  gmmlu/qwen3-8b: 300/1500 rows, ETA 28 min
+  gmmlu/qwen3-8b: 400/1500 rows, ETA 26 min
+  gmmlu/qwen3-8b: 500/1500 rows, ETA 24 min
+  gmmlu/qwen3-8b: 600/1500 rows, ETA 21 min
+  gmmlu/qwen3-8b: 700/1500 rows, ETA 19 min
+  gmmlu/qwen3-8b: 800/1500 rows, ETA 17 min
+  gmmlu/qwen3-8b: 900/1500 rows, ETA 14 min
+  gmmlu/qwen3-8b: 1000/1500 rows, ETA 12 min
+  gmmlu/qwen3-8b: 1100/1500 rows, ETA 10 min
+  gmmlu/qwen3-8b: 1200/1500 rows, ETA 7 min
+  gmmlu/qwen3-8b: 1300/1500 rows, ETA 5 min
+  gmmlu/qwen3-8b: 1400/1500 rows, ETA 2 min
+  gmmlu/qwen3-8b: 1500/1500 rows, ETA 0 min
+qwen3-8b: wrote 1500 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       ne 300     0.453        0
+       bn 300     0.470        0
+       en 300     0.703        0
+       hi 300     0.487        0
+       te 300     0.447        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  gmmlu/llama3.1-8b: 100/1500 rows, ETA 30 min
+  gmmlu/llama3.1-8b: 200/1500 rows, ETA 27 min
+  gmmlu/llama3.1-8b: 300/1500 rows, ETA 25 min
+  gmmlu/llama3.1-8b: 400/1500 rows, ETA 24 min
+  gmmlu/llama3.1-8b: 500/1500 rows, ETA 22 min
+  gmmlu/llama3.1-8b: 600/1500 rows, ETA 20 min
+  gmmlu/llama3.1-8b: 700/1500 rows, ETA 18 min
+  gmmlu/llama3.1-8b: 800/1500 rows, ETA 15 min
+  gmmlu/llama3.1-8b: 900/1500 rows, ETA 13 min
+  gmmlu/llama3.1-8b: 1000/1500 rows, ETA 11 min
+  gmmlu/llama3.1-8b: 1100/1500 rows, ETA 9 min
+  gmmlu/llama3.1-8b: 1200/1500 rows, ETA 7 min
+  gmmlu/llama3.1-8b: 1300/1500 rows, ETA 4 min
+  gmmlu/llama3.1-8b: 1400/1500 rows, ETA 2 min
+  gmmlu/llama3.1-8b: 1500/1500 rows, ETA 0 min
+llama3.1-8b: wrote 1500 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       ne 300     0.413        0
+       bn 300     0.420        0
+       en 300     0.683        0
+       hi 300     0.417        0
+       te 300     0.397        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  gmmlu/gpt-oss-20b: 100/1500 rows, ETA 75 min
+  gmmlu/gpt-oss-20b: 200/1500 rows, ETA 72 min
+  gmmlu/gpt-oss-20b: 300/1500 rows, ETA 65 min
+  gmmlu/gpt-oss-20b: 400/1500 rows, ETA 60 min
+  gmmlu/gpt-oss-20b: 500/1500 rows, ETA 55 min
+  gmmlu/gpt-oss-20b: 600/1500 rows, ETA 50 min
+  gmmlu/gpt-oss-20b: 700/1500 rows, ETA 44 min
+  gmmlu/gpt-oss-20b: 800/1500 rows, ETA 39 min
+  gmmlu/gpt-oss-20b: 900/1500 rows, ETA 33 min
+  gmmlu/gpt-oss-20b: 1000/1500 rows, ETA 27 min
+  gmmlu/gpt-oss-20b: 1100/1500 rows, ETA 22 min
+  gmmlu/gpt-oss-20b: 1200/1500 rows, ETA 16 min
+  gmmlu/gpt-oss-20b: 1300/1500 rows, ETA 11 min
+  gmmlu/gpt-oss-20b: 1400/1500 rows, ETA 5 min
+  gmmlu/gpt-oss-20b: 1500/1500 rows, ETA 0 min
+gpt-oss-20b: wrote 1500 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       ne 300     0.630        2
+       bn 300     0.613        4
+       en 300     0.793        7
+       hi 300     0.653        3
+       te 300     0.607        5
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  gmmlu/sarvam-30b: 100/1500 rows, ETA 9 min
+  gmmlu/sarvam-30b: 200/1500 rows, ETA 8 min
+  gmmlu/sarvam-30b: 300/1500 rows, ETA 8 min
+  gmmlu/sarvam-30b: 400/1500 rows, ETA 7 min
+  gmmlu/sarvam-30b: 500/1500 rows, ETA 7 min
+  gmmlu/sarvam-30b: 600/1500 rows, ETA 6 min
+  gmmlu/sarvam-30b: 700/1500 rows, ETA 5 min
+  gmmlu/sarvam-30b: 800/1500 rows, ETA 5 min
+  gmmlu/sarvam-30b: 900/1500 rows, ETA 4 min
+  gmmlu/sarvam-30b: 1000/1500 rows, ETA 3 min
+  gmmlu/sarvam-30b: 1100/1500 rows, ETA 3 min
+  gmmlu/sarvam-30b: 1200/1500 rows, ETA 2 min
+  gmmlu/sarvam-30b: 1300/1500 rows, ETA 1 min
+  gmmlu/sarvam-30b: 1400/1500 rows, ETA 1 min
+  gmmlu/sarvam-30b: 1500/1500 rows, ETA 0 min
+sarvam-30b: wrote 1500 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+       ne 300     0.493        0
+       bn 300     0.563        0
+       en 300     0.653        0
+       hi 300     0.580        0
+       te 300     0.560        0
+
+##### 2026-10-23 00:44:47  4. Belebele sensitivity: Llama 3.1 8B at Q3_K_M
+benchmark=belebele items=300 conditions=18 rows per model=5400 template=d3ee3d7bd6e7
+  llama3.1-8b-q3  [llama3.1:8b-instruct-q3_K_M] done=0 to_do=5400 calibration_row=no
+
+=== llama3.1-8b-q3 (llama3.1:8b-instruct-q3_K_M) ===
+  belebele/llama3.1-8b-q3: 100/5400 rows, ETA 251 min
+  belebele/llama3.1-8b-q3: 200/5400 rows, ETA 229 min
+  belebele/llama3.1-8b-q3: 300/5400 rows, ETA 215 min
+  belebele/llama3.1-8b-q3: 400/5400 rows, ETA 211 min
+  belebele/llama3.1-8b-q3: 500/5400 rows, ETA 206 min
+  belebele/llama3.1-8b-q3: 600/5400 rows, ETA 201 min
+  belebele/llama3.1-8b-q3: 700/5400 rows, ETA 196 min
+  belebele/llama3.1-8b-q3: 800/5400 rows, ETA 191 min
+  belebele/llama3.1-8b-q3: 900/5400 rows, ETA 188 min
+  belebele/llama3.1-8b-q3: 1000/5400 rows, ETA 183 min
+  belebele/llama3.1-8b-q3: 1100/5400 rows, ETA 177 min
+  belebele/llama3.1-8b-q3: 1200/5400 rows, ETA 173 min
+  belebele/llama3.1-8b-q3: 1300/5400 rows, ETA 169 min
+  belebele/llama3.1-8b-q3: 1400/5400 rows, ETA 164 min
+  belebele/llama3.1-8b-q3: 1500/5400 rows, ETA 161 min
+  belebele/llama3.1-8b-q3: 1600/5400 rows, ETA 157 min
+  belebele/llama3.1-8b-q3: 1700/5400 rows, ETA 152 min
+  belebele/llama3.1-8b-q3: 1800/5400 rows, ETA 149 min
+  belebele/llama3.1-8b-q3: 1900/5400 rows, ETA 144 min
+  belebele/llama3.1-8b-q3: 2000/5400 rows, ETA 140 min
+  belebele/llama3.1-8b-q3: 2100/5400 rows, ETA 137 min
+  belebele/llama3.1-8b-q3: 2200/5400 rows, ETA 132 min
+  belebele/llama3.1-8b-q3: 2300/5400 rows, ETA 129 min
+  belebele/llama3.1-8b-q3: 2400/5400 rows, ETA 124 min
+  belebele/llama3.1-8b-q3: 2500/5400 rows, ETA 119 min
+  belebele/llama3.1-8b-q3: 2600/5400 rows, ETA 116 min
+  belebele/llama3.1-8b-q3: 2700/5400 rows, ETA 112 min
+  belebele/llama3.1-8b-q3: 2800/5400 rows, ETA 107 min
+  belebele/llama3.1-8b-q3: 2900/5400 rows, ETA 103 min
+  belebele/llama3.1-8b-q3: 3000/5400 rows, ETA 98 min
+  belebele/llama3.1-8b-q3: 3100/5400 rows, ETA 94 min
+  belebele/llama3.1-8b-q3: 3200/5400 rows, ETA 90 min
+  belebele/llama3.1-8b-q3: 3300/5400 rows, ETA 86 min
+  belebele/llama3.1-8b-q3: 3400/5400 rows, ETA 82 min
+  belebele/llama3.1-8b-q3: 3500/5400 rows, ETA 78 min
+  belebele/llama3.1-8b-q3: 3600/5400 rows, ETA 74 min
+  belebele/llama3.1-8b-q3: 3700/5400 rows, ETA 69 min
+  belebele/llama3.1-8b-q3: 3800/5400 rows, ETA 65 min
+  belebele/llama3.1-8b-q3: 3900/5400 rows, ETA 61 min
+  belebele/llama3.1-8b-q3: 4000/5400 rows, ETA 57 min
+  belebele/llama3.1-8b-q3: 4100/5400 rows, ETA 53 min
+  belebele/llama3.1-8b-q3: 4200/5400 rows, ETA 49 min
+  belebele/llama3.1-8b-q3: 4300/5400 rows, ETA 45 min
+  belebele/llama3.1-8b-q3: 4400/5400 rows, ETA 41 min
+  belebele/llama3.1-8b-q3: 4500/5400 rows, ETA 37 min
+  belebele/llama3.1-8b-q3: 4600/5400 rows, ETA 33 min
+  belebele/llama3.1-8b-q3: 4700/5400 rows, ETA 29 min
+  belebele/llama3.1-8b-q3: 4800/5400 rows, ETA 24 min
+  belebele/llama3.1-8b-q3: 4900/5400 rows, ETA 20 min
+  belebele/llama3.1-8b-q3: 5000/5400 rows, ETA 16 min
+  belebele/llama3.1-8b-q3: 5100/5400 rows, ETA 12 min
+  belebele/llama3.1-8b-q3: 5200/5400 rows, ETA 8 min
+  belebele/llama3.1-8b-q3: 5300/5400 rows, ETA 4 min
+  belebele/llama3.1-8b-q3: 5400/5400 rows, ETA 0 min
+llama3.1-8b-q3: wrote 5400 rows + calibration row, 0 failed (see runs/errors.log)
+condition   n  accuracy  invalid
+ mar_Deva 300     0.670        0
+ ben_Beng 300     0.670        0
+ eng_Latn 300     0.897        0
+ tel_Telu 300     0.600        0
+ urd_Latn 300     0.410        0
+ npi_Latn 300     0.383        0
+ ory_Orya 300     0.520        0
+ kan_Knda 300     0.630        0
+ mal_Mlym 300     0.583        0
+ ben_Latn 300     0.393        0
+ urd_Arab 300     0.657        0
+ hin_Latn 300     0.543        0
+ pan_Guru 300     0.617        0
+ guj_Gujr 300     0.580        0
+ tam_Taml 300     0.620        0
+ asm_Beng 300     0.557        0
+ hin_Deva 300     0.673        0
+ npi_Deva 300     0.540        0
+
+##### 2026-10-23 04:25:04  5a. Belebele derived: +xlit (romanized -> native script)
+benchmark=belebele items=300 conditions=4 rows per model=1200 template=d3ee3d7bd6e7
+  gemma3-12b      [gemma3:12b] done=0 to_do=1200 calibration_row=yes
+  qwen3-8b        [qwen3:8b] done=0 to_do=1200 calibration_row=yes
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=1200 calibration_row=yes
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=1200 calibration_row=yes
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=1200 calibration_row=yes
+
+=== gemma3-12b (gemma3:12b) ===
+  belebele/gemma3-12b: 100/1200 rows, ETA 34 min
+  belebele/gemma3-12b: 200/1200 rows, ETA 30 min
+  belebele/gemma3-12b: 300/1200 rows, ETA 27 min
+  belebele/gemma3-12b: 400/1200 rows, ETA 24 min
+  belebele/gemma3-12b: 500/1200 rows, ETA 21 min
+  belebele/gemma3-12b: 600/1200 rows, ETA 18 min
+  belebele/gemma3-12b: 700/1200 rows, ETA 15 min
+  belebele/gemma3-12b: 800/1200 rows, ETA 12 min
+  belebele/gemma3-12b: 900/1200 rows, ETA 9 min
+  belebele/gemma3-12b: 1000/1200 rows, ETA 6 min
+  belebele/gemma3-12b: 1100/1200 rows, ETA 3 min
+  belebele/gemma3-12b: 1200/1200 rows, ETA 0 min
+gemma3-12b: wrote 1200 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+ben_Latn+xlit 300     0.767        0
+urd_Latn+xlit 300     0.670        0
+npi_Latn+xlit 300     0.723        0
+hin_Latn+xlit 300     0.793        0
+
+=== qwen3-8b (qwen3:8b) ===
+  belebele/qwen3-8b: 100/1200 rows, ETA 37 min
+  belebele/qwen3-8b: 200/1200 rows, ETA 31 min
+  belebele/qwen3-8b: 300/1200 rows, ETA 28 min
+  belebele/qwen3-8b: 400/1200 rows, ETA 25 min
+  belebele/qwen3-8b: 500/1200 rows, ETA 22 min
+  belebele/qwen3-8b: 600/1200 rows, ETA 18 min
+  belebele/qwen3-8b: 700/1200 rows, ETA 15 min
+  belebele/qwen3-8b: 800/1200 rows, ETA 12 min
+  belebele/qwen3-8b: 900/1200 rows, ETA 9 min
+  belebele/qwen3-8b: 1000/1200 rows, ETA 6 min
+  belebele/qwen3-8b: 1100/1200 rows, ETA 3 min
+  belebele/qwen3-8b: 1200/1200 rows, ETA 0 min
+qwen3-8b: wrote 1200 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+ben_Latn+xlit 300     0.743        0
+urd_Latn+xlit 300     0.620        0
+npi_Latn+xlit 300     0.647        0
+hin_Latn+xlit 300     0.733        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  belebele/llama3.1-8b: 100/1200 rows, ETA 30 min
+  belebele/llama3.1-8b: 200/1200 rows, ETA 26 min
+  belebele/llama3.1-8b: 300/1200 rows, ETA 22 min
+  belebele/llama3.1-8b: 400/1200 rows, ETA 20 min
+  belebele/llama3.1-8b: 500/1200 rows, ETA 17 min
+  belebele/llama3.1-8b: 600/1200 rows, ETA 15 min
+  belebele/llama3.1-8b: 700/1200 rows, ETA 12 min
+  belebele/llama3.1-8b: 800/1200 rows, ETA 10 min
+  belebele/llama3.1-8b: 900/1200 rows, ETA 7 min
+  belebele/llama3.1-8b: 1000/1200 rows, ETA 5 min
+  belebele/llama3.1-8b: 1100/1200 rows, ETA 2 min
+  belebele/llama3.1-8b: 1200/1200 rows, ETA 0 min
+llama3.1-8b: wrote 1200 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+ben_Latn+xlit 300     0.633        0
+urd_Latn+xlit 300     0.513        0
+npi_Latn+xlit 300     0.503        0
+hin_Latn+xlit 300     0.680        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  belebele/gpt-oss-20b: 100/1200 rows, ETA 63 min
+  belebele/gpt-oss-20b: 200/1200 rows, ETA 56 min
+  belebele/gpt-oss-20b: 300/1200 rows, ETA 51 min
+  belebele/gpt-oss-20b: 400/1200 rows, ETA 47 min
+  belebele/gpt-oss-20b: 500/1200 rows, ETA 40 min
+  belebele/gpt-oss-20b: 600/1200 rows, ETA 35 min
+  belebele/gpt-oss-20b: 700/1200 rows, ETA 29 min
+  belebele/gpt-oss-20b: 800/1200 rows, ETA 23 min
+  belebele/gpt-oss-20b: 900/1200 rows, ETA 17 min
+  belebele/gpt-oss-20b: 1000/1200 rows, ETA 12 min
+  belebele/gpt-oss-20b: 1100/1200 rows, ETA 6 min
+  belebele/gpt-oss-20b: 1200/1200 rows, ETA 0 min
+gpt-oss-20b: wrote 1200 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+ben_Latn+xlit 300     0.680        1
+urd_Latn+xlit 300     0.713        1
+npi_Latn+xlit 300     0.533        0
+hin_Latn+xlit 300     0.703        5
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  belebele/sarvam-30b: 100/1200 rows, ETA 9 min
+  belebele/sarvam-30b: 200/1200 rows, ETA 8 min
+  belebele/sarvam-30b: 300/1200 rows, ETA 7 min
+  belebele/sarvam-30b: 400/1200 rows, ETA 6 min
+  belebele/sarvam-30b: 500/1200 rows, ETA 5 min
+  belebele/sarvam-30b: 600/1200 rows, ETA 4 min
+  belebele/sarvam-30b: 700/1200 rows, ETA 4 min
+  belebele/sarvam-30b: 800/1200 rows, ETA 3 min
+  belebele/sarvam-30b: 900/1200 rows, ETA 2 min
+  belebele/sarvam-30b: 1000/1200 rows, ETA 1 min
+  belebele/sarvam-30b: 1100/1200 rows, ETA 1 min
+  belebele/sarvam-30b: 1200/1200 rows, ETA 0 min
+sarvam-30b: wrote 1200 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+ben_Latn+xlit 300     0.620        0
+urd_Latn+xlit 300     0.473        0
+npi_Latn+xlit 300     0.620        0
+hin_Latn+xlit 300     0.680        0
+
+##### 2026-10-23 07:25:27  5b. Belebele derived: +mt_en (native -> English)
+benchmark=belebele items=300 conditions=13 rows per model=3900 template=d3ee3d7bd6e7
+  gemma3-12b      [gemma3:12b] done=0 to_do=3900 calibration_row=yes
+  qwen3-8b        [qwen3:8b] done=0 to_do=3900 calibration_row=yes
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=3900 calibration_row=yes
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=3900 calibration_row=yes
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=3900 calibration_row=yes
+
+=== gemma3-12b (gemma3:12b) ===
+  belebele/gemma3-12b: 100/3900 rows, ETA 107 min
+  belebele/gemma3-12b: 200/3900 rows, ETA 102 min
+  belebele/gemma3-12b: 300/3900 rows, ETA 98 min
+  belebele/gemma3-12b: 400/3900 rows, ETA 95 min
+  belebele/gemma3-12b: 500/3900 rows, ETA 92 min
+  belebele/gemma3-12b: 600/3900 rows, ETA 89 min
+  belebele/gemma3-12b: 700/3900 rows, ETA 86 min
+  belebele/gemma3-12b: 800/3900 rows, ETA 83 min
+  belebele/gemma3-12b: 900/3900 rows, ETA 80 min
+  belebele/gemma3-12b: 1000/3900 rows, ETA 78 min
+  belebele/gemma3-12b: 1100/3900 rows, ETA 75 min
+  belebele/gemma3-12b: 1200/3900 rows, ETA 72 min
+  belebele/gemma3-12b: 1300/3900 rows, ETA 70 min
+  belebele/gemma3-12b: 1400/3900 rows, ETA 67 min
+  belebele/gemma3-12b: 1500/3900 rows, ETA 64 min
+  belebele/gemma3-12b: 1600/3900 rows, ETA 61 min
+  belebele/gemma3-12b: 1700/3900 rows, ETA 59 min
+  belebele/gemma3-12b: 1800/3900 rows, ETA 56 min
+  belebele/gemma3-12b: 1900/3900 rows, ETA 53 min
+  belebele/gemma3-12b: 2000/3900 rows, ETA 51 min
+  belebele/gemma3-12b: 2100/3900 rows, ETA 48 min
+  belebele/gemma3-12b: 2200/3900 rows, ETA 45 min
+  belebele/gemma3-12b: 2300/3900 rows, ETA 43 min
+  belebele/gemma3-12b: 2400/3900 rows, ETA 40 min
+  belebele/gemma3-12b: 2500/3900 rows, ETA 37 min
+  belebele/gemma3-12b: 2600/3900 rows, ETA 35 min
+  belebele/gemma3-12b: 2700/3900 rows, ETA 32 min
+  belebele/gemma3-12b: 2800/3900 rows, ETA 29 min
+  belebele/gemma3-12b: 2900/3900 rows, ETA 27 min
+  belebele/gemma3-12b: 3000/3900 rows, ETA 24 min
+  belebele/gemma3-12b: 3100/3900 rows, ETA 21 min
+  belebele/gemma3-12b: 3200/3900 rows, ETA 19 min
+  belebele/gemma3-12b: 3300/3900 rows, ETA 16 min
+  belebele/gemma3-12b: 3400/3900 rows, ETA 13 min
+  belebele/gemma3-12b: 3500/3900 rows, ETA 11 min
+  belebele/gemma3-12b: 3600/3900 rows, ETA 8 min
+  belebele/gemma3-12b: 3700/3900 rows, ETA 5 min
+  belebele/gemma3-12b: 3800/3900 rows, ETA 3 min
+  belebele/gemma3-12b: 3900/3900 rows, ETA 0 min
+gemma3-12b: wrote 3900 rows, 0 failed (see runs/errors.log)
+     condition   n  accuracy  invalid
+ben_Beng+mt_en 300     0.740        0
+npi_Deva+mt_en 300     0.660        0
+mar_Deva+mt_en 300     0.680        0
+hin_Deva+mt_en 300     0.747        0
+tel_Telu+mt_en 300     0.703        0
+mal_Mlym+mt_en 300     0.753        0
+guj_Gujr+mt_en 300     0.713        0
+tam_Taml+mt_en 300     0.720        0
+ory_Orya+mt_en 300     0.753        0
+pan_Guru+mt_en 300     0.717        0
+asm_Beng+mt_en 300     0.590        0
+kan_Knda+mt_en 300     0.730        0
+urd_Arab+mt_en 300     0.677        0
+
+=== qwen3-8b (qwen3:8b) ===
+  belebele/qwen3-8b: 100/3900 rows, ETA 51 min
+  belebele/qwen3-8b: 200/3900 rows, ETA 48 min
+  belebele/qwen3-8b: 300/3900 rows, ETA 47 min
+  belebele/qwen3-8b: 400/3900 rows, ETA 48 min
+  belebele/qwen3-8b: 500/3900 rows, ETA 49 min
+  belebele/qwen3-8b: 600/3900 rows, ETA 48 min
+  belebele/qwen3-8b: 700/3900 rows, ETA 48 min
+  belebele/qwen3-8b: 800/3900 rows, ETA 47 min
+  belebele/qwen3-8b: 900/3900 rows, ETA 46 min
+  belebele/qwen3-8b: 1000/3900 rows, ETA 45 min
+  belebele/qwen3-8b: 1100/3900 rows, ETA 44 min
+  belebele/qwen3-8b: 1200/3900 rows, ETA 42 min
+  belebele/qwen3-8b: 1300/3900 rows, ETA 41 min
+  belebele/qwen3-8b: 1400/3900 rows, ETA 39 min
+  belebele/qwen3-8b: 1500/3900 rows, ETA 38 min
+  belebele/qwen3-8b: 1600/3900 rows, ETA 37 min
+  belebele/qwen3-8b: 1700/3900 rows, ETA 35 min
+  belebele/qwen3-8b: 1800/3900 rows, ETA 33 min
+  belebele/qwen3-8b: 1900/3900 rows, ETA 32 min
+  belebele/qwen3-8b: 2000/3900 rows, ETA 30 min
+  belebele/qwen3-8b: 2100/3900 rows, ETA 29 min
+  belebele/qwen3-8b: 2200/3900 rows, ETA 27 min
+  belebele/qwen3-8b: 2300/3900 rows, ETA 26 min
+  belebele/qwen3-8b: 2400/3900 rows, ETA 24 min
+  belebele/qwen3-8b: 2500/3900 rows, ETA 23 min
+  belebele/qwen3-8b: 2600/3900 rows, ETA 21 min
+  belebele/qwen3-8b: 2700/3900 rows, ETA 20 min
+  belebele/qwen3-8b: 2800/3900 rows, ETA 18 min
+  belebele/qwen3-8b: 2900/3900 rows, ETA 16 min
+  belebele/qwen3-8b: 3000/3900 rows, ETA 15 min
+  belebele/qwen3-8b: 3100/3900 rows, ETA 13 min
+  belebele/qwen3-8b: 3200/3900 rows, ETA 11 min
+  belebele/qwen3-8b: 3300/3900 rows, ETA 10 min
+  belebele/qwen3-8b: 3400/3900 rows, ETA 8 min
+  belebele/qwen3-8b: 3500/3900 rows, ETA 7 min
+  belebele/qwen3-8b: 3600/3900 rows, ETA 5 min
+  belebele/qwen3-8b: 3700/3900 rows, ETA 3 min
+  belebele/qwen3-8b: 3800/3900 rows, ETA 2 min
+  belebele/qwen3-8b: 3900/3900 rows, ETA 0 min
+qwen3-8b: wrote 3900 rows, 0 failed (see runs/errors.log)
+     condition   n  accuracy  invalid
+ben_Beng+mt_en 300     0.723        0
+npi_Deva+mt_en 300     0.637        0
+mar_Deva+mt_en 300     0.660        0
+hin_Deva+mt_en 300     0.743        0
+tel_Telu+mt_en 300     0.650        0
+mal_Mlym+mt_en 300     0.740        0
+guj_Gujr+mt_en 300     0.703        0
+tam_Taml+mt_en 300     0.660        0
+ory_Orya+mt_en 300     0.747        0
+pan_Guru+mt_en 300     0.697        0
+asm_Beng+mt_en 300     0.580        0
+kan_Knda+mt_en 300     0.707        0
+urd_Arab+mt_en 300     0.687        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  belebele/llama3.1-8b: 100/3900 rows, ETA 68 min
+  belebele/llama3.1-8b: 200/3900 rows, ETA 65 min
+  belebele/llama3.1-8b: 300/3900 rows, ETA 63 min
+  belebele/llama3.1-8b: 400/3900 rows, ETA 60 min
+  belebele/llama3.1-8b: 500/3900 rows, ETA 58 min
+  belebele/llama3.1-8b: 600/3900 rows, ETA 56 min
+  belebele/llama3.1-8b: 700/3900 rows, ETA 54 min
+  belebele/llama3.1-8b: 800/3900 rows, ETA 52 min
+  belebele/llama3.1-8b: 900/3900 rows, ETA 50 min
+  belebele/llama3.1-8b: 1000/3900 rows, ETA 48 min
+  belebele/llama3.1-8b: 1100/3900 rows, ETA 46 min
+  belebele/llama3.1-8b: 1200/3900 rows, ETA 44 min
+  belebele/llama3.1-8b: 1300/3900 rows, ETA 43 min
+  belebele/llama3.1-8b: 1400/3900 rows, ETA 41 min
+  belebele/llama3.1-8b: 1500/3900 rows, ETA 39 min
+  belebele/llama3.1-8b: 1600/3900 rows, ETA 38 min
+  belebele/llama3.1-8b: 1700/3900 rows, ETA 36 min
+  belebele/llama3.1-8b: 1800/3900 rows, ETA 34 min
+  belebele/llama3.1-8b: 1900/3900 rows, ETA 32 min
+  belebele/llama3.1-8b: 2000/3900 rows, ETA 30 min
+  belebele/llama3.1-8b: 2100/3900 rows, ETA 28 min
+  belebele/llama3.1-8b: 2200/3900 rows, ETA 27 min
+  belebele/llama3.1-8b: 2300/3900 rows, ETA 25 min
+  belebele/llama3.1-8b: 2400/3900 rows, ETA 23 min
+  belebele/llama3.1-8b: 2500/3900 rows, ETA 21 min
+  belebele/llama3.1-8b: 2600/3900 rows, ETA 20 min
+  belebele/llama3.1-8b: 2700/3900 rows, ETA 18 min
+  belebele/llama3.1-8b: 2800/3900 rows, ETA 16 min
+  belebele/llama3.1-8b: 2900/3900 rows, ETA 15 min
+  belebele/llama3.1-8b: 3000/3900 rows, ETA 13 min
+  belebele/llama3.1-8b: 3100/3900 rows, ETA 12 min
+  belebele/llama3.1-8b: 3200/3900 rows, ETA 10 min
+  belebele/llama3.1-8b: 3300/3900 rows, ETA 9 min
+  belebele/llama3.1-8b: 3400/3900 rows, ETA 7 min
+  belebele/llama3.1-8b: 3500/3900 rows, ETA 6 min
+  belebele/llama3.1-8b: 3600/3900 rows, ETA 4 min
+  belebele/llama3.1-8b: 3700/3900 rows, ETA 3 min
+  belebele/llama3.1-8b: 3800/3900 rows, ETA 1 min
+  belebele/llama3.1-8b: 3900/3900 rows, ETA 0 min
+llama3.1-8b: wrote 3900 rows, 0 failed (see runs/errors.log)
+     condition   n  accuracy  invalid
+ben_Beng+mt_en 300     0.707        0
+npi_Deva+mt_en 300     0.647        0
+mar_Deva+mt_en 300     0.680        0
+hin_Deva+mt_en 300     0.743        0
+tel_Telu+mt_en 300     0.637        0
+mal_Mlym+mt_en 300     0.733        0
+guj_Gujr+mt_en 300     0.677        0
+tam_Taml+mt_en 300     0.647        0
+ory_Orya+mt_en 300     0.723        0
+pan_Guru+mt_en 300     0.690        0
+asm_Beng+mt_en 300     0.547        0
+kan_Knda+mt_en 300     0.700        0
+urd_Arab+mt_en 300     0.663        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  belebele/gpt-oss-20b: 100/3900 rows, ETA 185 min
+  belebele/gpt-oss-20b: 200/3900 rows, ETA 168 min
+  belebele/gpt-oss-20b: 300/3900 rows, ETA 162 min
+  belebele/gpt-oss-20b: 400/3900 rows, ETA 156 min
+  belebele/gpt-oss-20b: 500/3900 rows, ETA 150 min
+  belebele/gpt-oss-20b: 600/3900 rows, ETA 143 min
+  belebele/gpt-oss-20b: 700/3900 rows, ETA 138 min
+  belebele/gpt-oss-20b: 800/3900 rows, ETA 133 min
+  belebele/gpt-oss-20b: 900/3900 rows, ETA 130 min
+  belebele/gpt-oss-20b: 1000/3900 rows, ETA 125 min
+  belebele/gpt-oss-20b: 1100/3900 rows, ETA 121 min
+  belebele/gpt-oss-20b: 1200/3900 rows, ETA 116 min
+  belebele/gpt-oss-20b: 1300/3900 rows, ETA 111 min
+  belebele/gpt-oss-20b: 1400/3900 rows, ETA 107 min
+  belebele/gpt-oss-20b: 1500/3900 rows, ETA 103 min
+  belebele/gpt-oss-20b: 1600/3900 rows, ETA 99 min
+  belebele/gpt-oss-20b: 1700/3900 rows, ETA 95 min
+  belebele/gpt-oss-20b: 1800/3900 rows, ETA 91 min
+  belebele/gpt-oss-20b: 1900/3900 rows, ETA 86 min
+  belebele/gpt-oss-20b: 2000/3900 rows, ETA 82 min
+  belebele/gpt-oss-20b: 2100/3900 rows, ETA 78 min
+  belebele/gpt-oss-20b: 2200/3900 rows, ETA 73 min
+  belebele/gpt-oss-20b: 2300/3900 rows, ETA 69 min
+  belebele/gpt-oss-20b: 2400/3900 rows, ETA 65 min
+  belebele/gpt-oss-20b: 2500/3900 rows, ETA 60 min
+  belebele/gpt-oss-20b: 2600/3900 rows, ETA 56 min
+  belebele/gpt-oss-20b: 2700/3900 rows, ETA 52 min
+  belebele/gpt-oss-20b: 2800/3900 rows, ETA 47 min
+  belebele/gpt-oss-20b: 2900/3900 rows, ETA 43 min
+  belebele/gpt-oss-20b: 3000/3900 rows, ETA 39 min
+  belebele/gpt-oss-20b: 3100/3900 rows, ETA 34 min
+  belebele/gpt-oss-20b: 3200/3900 rows, ETA 30 min
+  belebele/gpt-oss-20b: 3300/3900 rows, ETA 26 min
+  belebele/gpt-oss-20b: 3400/3900 rows, ETA 21 min
+  belebele/gpt-oss-20b: 3500/3900 rows, ETA 17 min
+  belebele/gpt-oss-20b: 3600/3900 rows, ETA 13 min
+  belebele/gpt-oss-20b: 3700/3900 rows, ETA 9 min
+  belebele/gpt-oss-20b: 3800/3900 rows, ETA 4 min
+  belebele/gpt-oss-20b: 3900/3900 rows, ETA 0 min
+gpt-oss-20b: wrote 3900 rows, 0 failed (see runs/errors.log)
+     condition   n  accuracy  invalid
+ben_Beng+mt_en 300     0.737        0
+npi_Deva+mt_en 300     0.670        1
+mar_Deva+mt_en 300     0.747        1
+hin_Deva+mt_en 300     0.767        1
+tel_Telu+mt_en 300     0.723        0
+mal_Mlym+mt_en 300     0.803        0
+guj_Gujr+mt_en 300     0.743        1
+tam_Taml+mt_en 300     0.733        0
+ory_Orya+mt_en 300     0.797        0
+pan_Guru+mt_en 300     0.780        0
+asm_Beng+mt_en 300     0.643        0
+kan_Knda+mt_en 300     0.767        0
+urd_Arab+mt_en 300     0.717        1
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  belebele/sarvam-30b: 100/3900 rows, ETA 28 min
+  belebele/sarvam-30b: 200/3900 rows, ETA 27 min
+  belebele/sarvam-30b: 300/3900 rows, ETA 26 min
+  belebele/sarvam-30b: 400/3900 rows, ETA 25 min
+  belebele/sarvam-30b: 500/3900 rows, ETA 24 min
+  belebele/sarvam-30b: 600/3900 rows, ETA 24 min
+  belebele/sarvam-30b: 700/3900 rows, ETA 23 min
+  belebele/sarvam-30b: 800/3900 rows, ETA 22 min
+  belebele/sarvam-30b: 900/3900 rows, ETA 22 min
+  belebele/sarvam-30b: 1000/3900 rows, ETA 21 min
+  belebele/sarvam-30b: 1100/3900 rows, ETA 20 min
+  belebele/sarvam-30b: 1200/3900 rows, ETA 19 min
+  belebele/sarvam-30b: 1300/3900 rows, ETA 19 min
+  belebele/sarvam-30b: 1400/3900 rows, ETA 18 min
+  belebele/sarvam-30b: 1500/3900 rows, ETA 17 min
+  belebele/sarvam-30b: 1600/3900 rows, ETA 16 min
+  belebele/sarvam-30b: 1700/3900 rows, ETA 16 min
+  belebele/sarvam-30b: 1800/3900 rows, ETA 15 min
+  belebele/sarvam-30b: 1900/3900 rows, ETA 14 min
+  belebele/sarvam-30b: 2000/3900 rows, ETA 13 min
+  belebele/sarvam-30b: 2100/3900 rows, ETA 13 min
+  belebele/sarvam-30b: 2200/3900 rows, ETA 12 min
+  belebele/sarvam-30b: 2300/3900 rows, ETA 11 min
+  belebele/sarvam-30b: 2400/3900 rows, ETA 11 min
+  belebele/sarvam-30b: 2500/3900 rows, ETA 10 min
+  belebele/sarvam-30b: 2600/3900 rows, ETA 9 min
+  belebele/sarvam-30b: 2700/3900 rows, ETA 8 min
+  belebele/sarvam-30b: 2800/3900 rows, ETA 8 min
+  belebele/sarvam-30b: 2900/3900 rows, ETA 7 min
+  belebele/sarvam-30b: 3000/3900 rows, ETA 6 min
+  belebele/sarvam-30b: 3100/3900 rows, ETA 6 min
+  belebele/sarvam-30b: 3200/3900 rows, ETA 5 min
+  belebele/sarvam-30b: 3300/3900 rows, ETA 4 min
+  belebele/sarvam-30b: 3400/3900 rows, ETA 3 min
+  belebele/sarvam-30b: 3500/3900 rows, ETA 3 min
+  belebele/sarvam-30b: 3600/3900 rows, ETA 2 min
+  belebele/sarvam-30b: 3700/3900 rows, ETA 1 min
+  belebele/sarvam-30b: 3800/3900 rows, ETA 1 min
+  belebele/sarvam-30b: 3900/3900 rows, ETA 0 min
+sarvam-30b: wrote 3900 rows, 0 failed (see runs/errors.log)
+     condition   n  accuracy  invalid
+ben_Beng+mt_en 300     0.650        0
+npi_Deva+mt_en 300     0.607        0
+mar_Deva+mt_en 300     0.610        0
+hin_Deva+mt_en 300     0.677        0
+tel_Telu+mt_en 300     0.603        0
+mal_Mlym+mt_en 300     0.707        0
+guj_Gujr+mt_en 300     0.680        0
+tam_Taml+mt_en 300     0.693        0
+ory_Orya+mt_en 300     0.693        0
+pan_Guru+mt_en 300     0.670        0
+asm_Beng+mt_en 300     0.570        0
+kan_Knda+mt_en 300     0.667        0
+urd_Arab+mt_en 300     0.637        0
+
+##### 2026-10-23 14:20:47  6. Belebele exploratory: Indian English (+inde) and Hinglish (+cm)
+benchmark=belebele items=300 conditions=2 rows per model=600 template=d3ee3d7bd6e7
+  gemma3-12b      [gemma3:12b] done=0 to_do=600 calibration_row=yes
+  qwen3-8b        [qwen3:8b] done=0 to_do=600 calibration_row=yes
+  llama3.1-8b     [llama3.1:8b] done=0 to_do=600 calibration_row=yes
+  gpt-oss-20b     [gpt-oss:20b] done=0 to_do=600 calibration_row=yes
+  sarvam-30b      [sarvam-30b-q3] done=0 to_do=600 calibration_row=yes
+
+=== gemma3-12b (gemma3:12b) ===
+  belebele/gemma3-12b: 100/600 rows, ETA 15 min
+  belebele/gemma3-12b: 200/600 rows, ETA 11 min
+  belebele/gemma3-12b: 300/600 rows, ETA 9 min
+  belebele/gemma3-12b: 400/600 rows, ETA 6 min
+  belebele/gemma3-12b: 500/600 rows, ETA 3 min
+  belebele/gemma3-12b: 600/600 rows, ETA 0 min
+gemma3-12b: wrote 600 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+eng_Latn+inde 300     0.870        0
+  hin_Latn+cm 300     0.753        0
+
+=== qwen3-8b (qwen3:8b) ===
+  belebele/qwen3-8b: 100/600 rows, ETA 7 min
+  belebele/qwen3-8b: 200/600 rows, ETA 6 min
+  belebele/qwen3-8b: 300/600 rows, ETA 4 min
+  belebele/qwen3-8b: 400/600 rows, ETA 3 min
+  belebele/qwen3-8b: 500/600 rows, ETA 1 min
+  belebele/qwen3-8b: 600/600 rows, ETA 0 min
+qwen3-8b: wrote 600 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+eng_Latn+inde 300     0.903        0
+  hin_Latn+cm 300     0.703        0
+
+=== llama3.1-8b (llama3.1:8b) ===
+  belebele/llama3.1-8b: 100/600 rows, ETA 7 min
+  belebele/llama3.1-8b: 200/600 rows, ETA 5 min
+  belebele/llama3.1-8b: 300/600 rows, ETA 4 min
+  belebele/llama3.1-8b: 400/600 rows, ETA 3 min
+  belebele/llama3.1-8b: 500/600 rows, ETA 1 min
+  belebele/llama3.1-8b: 600/600 rows, ETA 0 min
+llama3.1-8b: wrote 600 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+eng_Latn+inde 300     0.890        0
+  hin_Latn+cm 300     0.633        0
+
+=== gpt-oss-20b (gpt-oss:20b) ===
+  belebele/gpt-oss-20b: 100/600 rows, ETA 21 min
+  belebele/gpt-oss-20b: 200/600 rows, ETA 17 min
+  belebele/gpt-oss-20b: 300/600 rows, ETA 13 min
+  belebele/gpt-oss-20b: 400/600 rows, ETA 9 min
+  belebele/gpt-oss-20b: 500/600 rows, ETA 4 min
+  belebele/gpt-oss-20b: 600/600 rows, ETA 0 min
+gpt-oss-20b: wrote 600 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+eng_Latn+inde 300     0.907        0
+  hin_Latn+cm 300     0.783        2
+
+=== sarvam-30b (sarvam-30b-q3) ===
+  belebele/sarvam-30b: 100/600 rows, ETA 4 min
+  belebele/sarvam-30b: 200/600 rows, ETA 3 min
+  belebele/sarvam-30b: 300/600 rows, ETA 2 min
+  belebele/sarvam-30b: 400/600 rows, ETA 1 min
+  belebele/sarvam-30b: 500/600 rows, ETA 1 min
+  belebele/sarvam-30b: 600/600 rows, ETA 0 min
+sarvam-30b: wrote 600 rows, 0 failed (see runs/errors.log)
+    condition   n  accuracy  invalid
+eng_Latn+inde 300     0.793        0
+  hin_Latn+cm 300     0.653        0
+
+##### 2026-10-23 15:22:40  done (status 0)

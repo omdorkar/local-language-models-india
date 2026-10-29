@@ -1,0 +1,111 @@
+{
+ "xlit": {
+  "hin_Latn": {
+   "rows": 300,
+   "unique_words": 5286,
+   "seconds": 37.5
+  },
+  "ben_Latn": {
+   "rows": 300,
+   "unique_words": 6333,
+   "seconds": 50.9
+  },
+  "urd_Latn": {
+   "rows": 300,
+   "unique_words": 6109,
+   "seconds": 36.4
+  },
+  "npi_Latn": {
+   "rows": 300,
+   "unique_words": 6633,
+   "seconds": 55.0
+  }
+ },
+ "mt": {
+  "hin_Deva": {
+   "rows": 300,
+   "seconds": 682.1,
+   "generate_seconds": 0.0
+  },
+  "ben_Beng": {
+   "rows": 300,
+   "seconds": 748.8,
+   "generate_seconds": 0.0
+  },
+  "urd_Arab": {
+   "rows": 300,
+   "seconds": 825.5,
+   "generate_seconds": 0.0
+  },
+  "npi_Deva": {
+   "rows": 300,
+   "seconds": 945.4,
+   "generate_seconds": 0.0
+  },
+  "mar_Deva": {
+   "rows": 300,
+   "seconds": 974.1,
+   "generate_seconds": 0.0
+  },
+  "tel_Telu": {
+   "rows": 300,
+   "seconds": 1673.9,
+   "generate_seconds": 0.0
+  },
+  "tam_Taml": {
+   "rows": 300,
+   "seconds": 1321.1,
+   "generate_seconds": 0.0
+  },
+  "guj_Gujr": {
+   "rows": 300,
+   "seconds": 1294.9,
+   "generate_seconds": 0.0
+  },
+  "kan_Knda": {
+   "rows": 300,
+   "seconds": 1177.3,
+   "generate_seconds": 0.0
+  },
+  "mal_Mlym": {
+   "rows": 300,
+   "seconds": 1271.6,
+   "generate_seconds": 0.0
+  },
+  "pan_Guru": {
+   "rows": 300,
+   "seconds": 1184.0,
+   "generate_seconds": 0.0
+  },
+  "ory_Orya": {
+   "rows": 300,
+   "seconds": 1057.5,
+   "generate_seconds": 0.0
+  },
+  "asm_Beng": {
+   "rows": 300,
+   "seconds": 2066.2,
+   "generate_seconds": 0.0
+  }
+ },
+ "machine": "macOS-26.6-arm64-arm-64bit; arm64",
+ "xlit_total_seconds": 191.9,
+ "xlit_peak_rss_gb": 3.77,
+ "xlit_method_version": "ai4bharat-transliteration==1.1.3; model=indicxlit-en-indic-v1.0 (transformer); beam=4; rescore(alpha=0.9) top-1; word-level",
+ "mt_total_seconds": 15222.4,
+ "mt_peak_rss_gb": 5.87,
+ "mt_device": null,
+ "mt_dtype": null,
+ "mt_mps_driver_allocated_gb_at_end": 3.71,
+ "mt_method_version": "facebook/nllb-200-distilled-1.3B@7be3e24664b3; transformers==4.46.3; beam=4; sentence-split; max_new_tokens=min(256, 2*src_len+10); fp16 on MPS",
+ "mt_generation": {
+  "num_beams": 4,
+  "max_input_tokens": 256,
+  "max_new_tokens_cap": 256,
+  "length_factor": 2.0,
+  "length_slack": 10
+ },
+ "note": "Timings are from the original cold run (2026-10-21; GPU shared with other jobs). Warm-cache re-runs take ~35 s total and load no model.",
+ "mt_time_l_peak_memory_footprint_gb": 45.97,
+ "mt_time_l_max_rss_gb": 5.87
+}

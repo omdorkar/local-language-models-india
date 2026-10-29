@@ -1,0 +1,8 @@
+set,KS_D,p_value,n
+after: sentences+questions vs COMI (all),0.3128302803769642,4.316072953710173e-103,1553
+before: sentences+questions vs COMI (all),0.839908678801145,2.1e-322,1553
+after: sentences+questions vs COMI Latin-dominant,0.26534684188228974,3.129217861448551e-33,1553
+after: all units vs COMI (all),0.34920650831638317,4.3465309742396894e-198,2876
+before: all units vs COMI (all),0.827833257457736,0.0,2876
+"after: units with mixing reachable (n_candidates>=1), >=8 tokens, vs COMI",0.3024785037403334,8.674429818752597e-98,1585
+target draws vs COMI (sanity),0.01714537903689503,0.6484355010974067,2876

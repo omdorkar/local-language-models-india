@@ -1,0 +1,84 @@
+{
+  "runtimes": {
+    "ollama": "0.32.5",
+    "llama.cpp": "version: 0.7.0 (build 11669, commit 620d2225c)"
+  },
+  "models": [
+    {
+      "model": "Gemma 3 12B",
+      "tag": "gemma3:12b",
+      "digest": "b92b218582c521ba287f38f1d6057dcd3c6cbff036f13cac97b5d861f5e58ec3",
+      "size_gb": 8.16,
+      "architecture": "gemma3",
+      "parameters": "11.8B",
+      "quantization": "Q4_K_M",
+      "capabilities": [
+        "completion",
+        "vision"
+      ],
+      "licence": "Gemma Terms of Use ",
+      "modified_at": "2026-10-21T02:02:27.546212984-04:00"
+    },
+    {
+      "model": "Qwen3 8B",
+      "tag": "qwen3:8b",
+      "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "size_gb": 5.23,
+      "architecture": "qwen3",
+      "parameters": "8.2B",
+      "quantization": "Q4_K_M",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "licence": "Apache License",
+      "modified_at": "2026-10-21T02:04:05.298727881-04:00"
+    },
+    {
+      "model": "Llama 3.1 8B",
+      "tag": "llama3.1:8b",
+      "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "size_gb": 4.92,
+      "architecture": "llama",
+      "parameters": "8.0B",
+      "quantization": "Q4_K_M",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "licence": "LLAMA 3.1 COMMUNITY LICENSE AGREEMENT",
+      "modified_at": "2026-10-21T02:05:39.078888479-04:00"
+    },
+    {
+      "model": "gpt-oss 20B",
+      "tag": "gpt-oss:20b",
+      "digest": "f38aa0c53da5f8c49d08c43a99df24ff53167fe68e24664a7777288e7656fdfe",
+      "size_gb": 13.79,
+      "architecture": "gpt-oss",
+      "parameters": "20.9B",
+      "quantization": "MXFP4",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "licence": "Apache License",
+      "modified_at": "2026-10-21T02:09:20.517363195-04:00"
+    },
+    {
+      "model": "Sarvam-30B",
+      "tag": "llama.cpp local GGUF",
+      "digest": "sha256:4cf4375650e3d09a754c462cb7ab147aea93b37b2221500d93dfa799329687ae",
+      "size_gb": 15.68,
+      "architecture": "bailingmoe2",
+      "parameters": "32B (2.4B active)",
+      "quantization": "Q3_K_M",
+      "capabilities": [
+        "completion",
+        "thinking"
+      ],
+      "licence": "Apache-2.0"
+    }
+  ]
+}

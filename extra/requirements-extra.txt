@@ -1,0 +1,10 @@
+# Installed with:  uv venv --python 3.10 .venv-extra && uv pip install --python .venv-extra/bin/python -r extra/requirements-extra.txt
+# (plus the two one-off resources listed in extra/README.md: spaCy en_core_web_sm wheel, NLTK wordnet+cmudict)
+value-nlp==0.3          # Multi-VALUE (Ziems et al., ACL 2023); pins spacy==3.7.4, stanza==1.8.2, nltk, lemminflect, inflect, geopy ...
+numpy<2                 # spacy 3.7 / thinc 8.2 are compiled against numpy 1.x
+simalign==0.4           # word alignment (Jalili Sabet et al., Findings of EMNLP 2020)
+sentence-transformers   # LaBSE (Feng et al., ACL 2022)
+scipy
+matplotlib
+rapidfuzz
+pypdf                   # only used once to read the Das & Gambäck 2014 CMI definition; not needed to run the pipeline
