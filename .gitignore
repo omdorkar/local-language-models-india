@@ -1,0 +1,14 @@
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Downloaded datasets and model weights are reproducible via `python -m evaluation.download`.
+data/raw/
+models/
+
+# Large server log from the runs (not needed to reproduce results).
+runs/llama_server.log
+data/derived/cache/
