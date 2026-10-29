@@ -1,0 +1,159 @@
+{
+  "languages": [
+    {
+      "language": "Hindi",
+      "native_config": "hin_Deva",
+      "native_items": 900,
+      "native_latin_share": 0.004,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": "hin_Latn",
+      "romanized_items": 900,
+      "romanized_latin_share": 1.0,
+      "romanized_parallel_to_native": true,
+      "romanized_answers_match_native": true
+    },
+    {
+      "language": "Bengali",
+      "native_config": "ben_Beng",
+      "native_items": 900,
+      "native_latin_share": 0.003,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": "ben_Latn",
+      "romanized_items": 900,
+      "romanized_latin_share": 1.0,
+      "romanized_parallel_to_native": true,
+      "romanized_answers_match_native": true
+    },
+    {
+      "language": "Urdu",
+      "native_config": "urd_Arab",
+      "native_items": 900,
+      "native_latin_share": 0.003,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": "urd_Latn",
+      "romanized_items": 900,
+      "romanized_latin_share": 1.0,
+      "romanized_parallel_to_native": true,
+      "romanized_answers_match_native": true
+    },
+    {
+      "language": "Nepali",
+      "native_config": "npi_Deva",
+      "native_items": 900,
+      "native_latin_share": 0.014,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": "npi_Latn",
+      "romanized_items": 900,
+      "romanized_latin_share": 1.0,
+      "romanized_parallel_to_native": true,
+      "romanized_answers_match_native": true
+    },
+    {
+      "language": "Marathi",
+      "native_config": "mar_Deva",
+      "native_items": 900,
+      "native_latin_share": 0.004,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Telugu",
+      "native_config": "tel_Telu",
+      "native_items": 900,
+      "native_latin_share": 0.027,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Tamil",
+      "native_config": "tam_Taml",
+      "native_items": 900,
+      "native_latin_share": 0.006,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Gujarati",
+      "native_config": "guj_Gujr",
+      "native_items": 900,
+      "native_latin_share": 0.003,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Kannada",
+      "native_config": "kan_Knda",
+      "native_items": 900,
+      "native_latin_share": 0.005,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Malayalam",
+      "native_config": "mal_Mlym",
+      "native_items": 900,
+      "native_latin_share": 0.002,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Punjabi",
+      "native_config": "pan_Guru",
+      "native_items": 900,
+      "native_latin_share": 0.007,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Odia",
+      "native_config": "ory_Orya",
+      "native_items": 900,
+      "native_latin_share": 0.006,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    },
+    {
+      "language": "Assamese",
+      "native_config": "asm_Beng",
+      "native_items": 900,
+      "native_latin_share": 0.005,
+      "parallel_to_english": true,
+      "answers_match_english": true,
+      "romanized_config": null
+    }
+  ],
+  "samples": {
+    "Hindi": {
+      "native_question": "गद्यांश के अनुसार, संगीत के लिए अक्कादियन को सटीक रूप से पुनर्स्थापित करने के लिए वास्तव में क्या संभव नहीं है?",
+      "romanized_question": "Passage ke hisab se, accordion ache se bajaane ki kaun si sabse sahi tip nhi kehlayegi?",
+      "english_question": "According to the passage, what would not be considered an accurate tip for successfully playing the accordion?"
+    },
+    "Bengali": {
+      "native_question": "অনুচ্ছেদ অনুযায়ী, সুন্দরভাবে অ্যাকর্ডিয়ন বাজানোর জন্য কোনটি সঠিক পরামর্শ হিসাবে বিবেচিত হবে না?",
+      "romanized_question": "Onucchhed onujaayi, sofolvabe Acordione bajanor jonno konti nirvul tip hishebe bibechona kora hobe na?",
+      "english_question": "According to the passage, what would not be considered an accurate tip for successfully playing the accordion?"
+    },
+    "Urdu": {
+      "native_question": "اقتباس کے مطابق، باجے کو کامیابی سے بجانے کے لئے صحیح تجویز کسے نہیں سمجھا جائے گا؟",
+      "romanized_question": "Ebarat key hisaab sey, Kamiyaabi key saath baaja bajaney key liye kis cheez ko durust tip nahein samjha jaata hay?",
+      "english_question": "According to the passage, what would not be considered an accurate tip for successfully playing the accordion?"
+    },
+    "Nepali": {
+      "native_question": "अनुच्छेदनुसार, कुन सुझावलाई राम्रोसँग अकोर्डियोन बजाउने सही सुझाव मानिँदैन?",
+      "romanized_question": "anuchhed anusar, safltapurak accordian bajauna kun kuralai sahi sallaha maanidaina?",
+      "english_question": "According to the passage, what would not be considered an accurate tip for successfully playing the accordion?"
+    }
+  }
+}

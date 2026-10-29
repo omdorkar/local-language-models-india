@@ -1,0 +1,51 @@
+W1021 17:07:05.630000 53539 .venv-extra/lib/python3.10/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/389 [00:00<?, ?it/s]Loading weights: 100%|██████████| 389/389 [00:00<00:00, 27471.91it/s]
+[transformers] [1mElectraModel LOAD REPORT[0m from: google/electra-large-discriminator
+Key                                               | Status     |  | 
+--------------------------------------------------+------------+--+-
+discriminator_predictions.dense_prediction.bias   | UNEXPECTED |  | 
+electra.embeddings_project.weight                 | UNEXPECTED |  | 
+discriminator_predictions.dense.bias              | UNEXPECTED |  | 
+discriminator_predictions.dense.weight            | UNEXPECTED |  | 
+electra.embeddings_project.bias                   | UNEXPECTED |  | 
+discriminator_predictions.dense_prediction.weight | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[VECTOR DIALECT] Indian English (abbr: IndE)
+	Region: South and Southeast Asia
+	Latitude: 28.61
+	Longitude: 77.34
+0/300 items, 8s
+10/300 items, 125s
+20/300 items, 236s
+30/300 items, 332s
+40/300 items, 411s
+50/300 items, 483s
+60/300 items, 578s
+70/300 items, 688s
+80/300 items, 753s
+90/300 items, 794s
+100/300 items, 855s
+110/300 items, 911s
+120/300 items, 984s
+130/300 items, 1085s
+140/300 items, 1161s
+150/300 items, 1231s
+160/300 items, 1319s
+170/300 items, 1422s
+180/300 items, 1524s
+190/300 items, 1610s
+200/300 items, 1688s
+210/300 items, 1727s
+220/300 items, 1766s
+230/300 items, 1815s
+240/300 items, 1867s
+250/300 items, 1924s
+260/300 items, 1986s
+270/300 items, 2050s
+280/300 items, 2144s
+290/300 items, 2224s
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 7345.93it/s]
+done 300
