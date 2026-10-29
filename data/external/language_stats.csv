@@ -1,0 +1,15 @@
+iso,language,census2011_first_language_speakers,wikipedia_articles,census_source_url,wikipedia_source_url,retrieved
+en,English,259678,7253953,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://en.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+hi,Hindi,528347193,172127,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://hi.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+bn,Bengali,97237669,192193,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://bn.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+ur,Urdu,50772631,706327,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://ur.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+ne,Nepali,2926168,30059,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://ne.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+mr,Marathi,83026680,103465,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://mr.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+te,Telugu,81127740,129947,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://te.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+ta,Tamil,69026881,191511,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://ta.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+gu,Gujarati,55492554,30936,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://gu.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+kn,Kannada,43706512,34833,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://kn.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+ml,Malayalam,34838819,89226,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://ml.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+pa,Punjabi,33124726,59754,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://pa.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+or,Odia,37521324,21161,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://or.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21
+as,Assamese,15311351,25924,https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers_in_India,https://as.wikipedia.org/w/api.php?action=query&meta=siteinfo&siprop=statistics&format=json,2026-10-21

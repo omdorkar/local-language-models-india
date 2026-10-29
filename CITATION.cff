@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, the derived data or the results, please cite it as below. Please also cite the original datasets (Belebele, Global-MMLU), listed in the paper."
+title: "Language and Script Gaps in Local Language Models for Indian Users"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+license: MIT
+authors:
+  - family-names: Dorkar
+    given-names: Om
+abstract: >-
+  An offline audit of five open-weight language models (Gemma 3 12B, Qwen3 8B, Llama 3.1 8B,
+  gpt-oss 20B, Sarvam-30B) running fully offline on one laptop. It compares accuracy on the same
+  Belebele and Global-MMLU questions in English, 13 Indian languages, native versus romanized script,
+  synthetic Indian English and synthetic Hinglish, and tests two preprocessing fixes
+  (transliteration to native script, translation to English). Code, item samples, machine-made
+  conditions and model outputs (76,400 answers) are released. Code is MIT; derived data is CC BY-SA 4.0.
+keywords:
+  - Indian languages
+  - multilingual evaluation
+  - romanization
+  - code-mixing
+  - fairness audit
+  - on-device language models
+  - benchmark evaluation
+repository-code: "https://github.com/omdorkar/local-language-models-india"

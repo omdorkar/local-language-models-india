@@ -1,0 +1,30 @@
+# Python 3.10 venv:  uv venv .venv-bridge --python 3.10
+# Install order matters (see bridge/README.md). Versions are the ones the reported numbers were produced with.
+numpy<2
+cython<3
+setuptools<70          # build-time only (fairseq 0.12.2 setup.py)
+wheel
+torch==2.5.1           # transformers 4.46.3 + fairseq 0.12.2 both work with it; torch>=2.6 needs transformers>=5
+# fairseq is installed separately from the git tag (the PyPI sdist lacks fairseq/clib):
+#   git clone --depth 1 --branch v0.12.2 https://github.com/facebookresearch/fairseq.git <dir>   (commit 4a388e64cd64)
+#   CXXFLAGS=-Wno-invalid-specialization CFLAGS=-Wno-invalid-specialization uv pip install --no-build-isolation <dir>
+# IndicXlit, WITHOUT its tensorflow-heavy dependency tree (urduhack is only imported, see bridge/_compat.py):
+#   uv pip install --no-deps ai4bharat-transliteration==1.1.3 urduhack==1.1.1
+pydload
+sacremoses
+ujson
+indic-nlp-library==0.92
+pandas
+tqdm
+mock
+tensorboardX
+regex
+transformers==4.46.3
+huggingface_hub<1.0
+tokenizers<0.21
+accelerate<1.3
+sentencepiece
+protobuf
+sacrebleu
+rapidfuzz
+psutil
